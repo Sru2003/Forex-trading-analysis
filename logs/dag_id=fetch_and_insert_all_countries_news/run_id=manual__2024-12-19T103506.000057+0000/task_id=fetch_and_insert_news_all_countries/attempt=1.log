@@ -1,0 +1,69 @@
+[2024-12-19T10:35:08.735+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-19T10:35:08.768+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_and_insert_all_countries_news.fetch_and_insert_news_all_countries manual__2024-12-19T10:35:06.000057+00:00 [queued]>
+[2024-12-19T10:35:08.783+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_and_insert_all_countries_news.fetch_and_insert_news_all_countries manual__2024-12-19T10:35:06.000057+00:00 [queued]>
+[2024-12-19T10:35:08.785+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-19T10:35:08.809+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_insert_news_all_countries> on 2024-12-19 10:35:06.000057+00:00
+[2024-12-19T10:35:08.819+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4714) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-19T10:35:08.821+0000] {standard_task_runner.py:72} INFO - Started process 4716 to run task
+[2024-12-19T10:35:08.823+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fetch_and_insert_all_countries_news', 'fetch_and_insert_news_all_countries', 'manual__2024-12-19T10:35:06.000057+00:00', '--job-id', '2597', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_connector_dag.py', '--cfg-path', '/tmp/tmphv1brswt']
+[2024-12-19T10:35:08.827+0000] {standard_task_runner.py:105} INFO - Job 2597: Subtask fetch_and_insert_news_all_countries
+[2024-12-19T10:35:08.905+0000] {task_command.py:467} INFO - Running <TaskInstance: fetch_and_insert_all_countries_news.fetch_and_insert_news_all_countries manual__2024-12-19T10:35:06.000057+00:00 [running]> on host 8348eb091483
+[2024-12-19T10:35:09.054+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_and_insert_all_countries_news' AIRFLOW_CTX_TASK_ID='fetch_and_insert_news_all_countries' AIRFLOW_CTX_EXECUTION_DATE='2024-12-19T10:35:06.000057+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-19T10:35:06.000057+00:00'
+[2024-12-19T10:35:09.059+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-19T10:35:09.125+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-19T10:35:09.133+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-19T10:35:09.136+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-19T10:35:09.137+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-19T10:35:09.746+0000] {logging_mixin.py:190} INFO - Processing news for country: CH
+[2024-12-19T10:35:09.749+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-22 to 2020-01-23 for CH...
+[2024-12-19T10:35:10.630+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:10.632+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-23 to 2020-01-24 for CH...
+[2024-12-19T10:35:11.433+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:11.434+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-24 to 2020-01-25 for CH...
+[2024-12-19T10:35:12.262+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:12.264+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-25 to 2020-01-26 for CH...
+[2024-12-19T10:35:13.099+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:13.100+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-26 to 2020-01-27 for CH...
+[2024-12-19T10:35:13.941+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:13.942+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-27 to 2020-01-28 for CH...
+[2024-12-19T10:35:14.787+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:14.789+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-28 to 2020-01-29 for CH...
+[2024-12-19T10:35:15.658+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:15.660+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-29 to 2020-01-30 for CH...
+[2024-12-19T10:35:16.484+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:21.486+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-30 to 2020-01-31 for CH...
+[2024-12-19T10:35:22.353+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:22.355+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-31 to 2020-02-01 for CH...
+[2024-12-19T10:35:23.201+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:23.203+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-01 to 2020-02-02 for CH...
+[2024-12-19T10:35:24.045+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:24.046+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-02 to 2020-02-03 for CH...
+[2024-12-19T10:35:24.893+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:24.895+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-03 to 2020-02-04 for CH...
+[2024-12-19T10:35:25.797+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:25.798+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-04 to 2020-02-05 for CH...
+[2024-12-19T10:35:26.643+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:26.645+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-05 to 2020-02-06 for CH...
+[2024-12-19T10:35:27.486+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:27.487+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-06 to 2020-02-07 for CH...
+[2024-12-19T10:35:28.353+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-19T10:35:28.354+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-07 to 2020-02-08 for CH...
+[2024-12-19T10:35:30.615+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'DEMO_NEWS' for CH.
+[2024-12-19T10:35:30.616+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-08 to 2020-02-09 for CH...
+[2024-12-19T10:35:34.347+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: 'ValueError' object has no attribute 'pos'
+[2024-12-19T10:35:34.349+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-09 to 2020-02-10 for CH...
+[2024-12-19T10:35:43.051+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'DEMO_NEWS' for CH.
+[2024-12-19T10:35:43.052+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-10 to 2020-02-11 for CH...
+[2024-12-19T10:35:47.372+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'DEMO_NEWS' for CH.
+[2024-12-19T10:35:47.373+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-02-11 to 2020-02-12 for CH...
+[2024-12-19T10:35:49.396+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-12-19T10:35:49.399+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-19T10:35:49.402+0000] {process_utils.py:132} INFO - Sending 15 to group 4716. PIDs of all processes in the group: [4716]
+[2024-12-19T10:35:49.403+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 4716
+[2024-12-19T10:35:49.404+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-19T10:35:49.405+0000] {connection.py:789} INFO - closed
+[2024-12-19T10:35:49.434+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-19T10:35:49.578+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-19T10:35:49.617+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=4716, status='terminated', exitcode=0, started='10:35:08') (4716) terminated with exit code 0

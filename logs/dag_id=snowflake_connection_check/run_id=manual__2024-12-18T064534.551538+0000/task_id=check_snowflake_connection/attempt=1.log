@@ -1,0 +1,34 @@
+[2024-12-18T06:45:36.960+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-18T06:45:36.984+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snowflake_connection_check.check_snowflake_connection manual__2024-12-18T06:45:34.551538+00:00 [queued]>
+[2024-12-18T06:45:36.996+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snowflake_connection_check.check_snowflake_connection manual__2024-12-18T06:45:34.551538+00:00 [queued]>
+[2024-12-18T06:45:36.997+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-18T06:45:37.016+0000] {taskinstance.py:2889} INFO - Executing <Task(SnowflakeOperator): check_snowflake_connection> on 2024-12-18 06:45:34.551538+00:00
+[2024-12-18T06:45:37.025+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=999) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-18T06:45:37.027+0000] {standard_task_runner.py:72} INFO - Started process 1001 to run task
+[2024-12-18T06:45:37.029+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'snowflake_connection_check', 'check_snowflake_connection', 'manual__2024-12-18T06:45:34.551538+00:00', '--job-id', '2542', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_connector_dag.py', '--cfg-path', '/tmp/tmp6otdw8rb']
+[2024-12-18T06:45:37.033+0000] {standard_task_runner.py:105} INFO - Job 2542: Subtask check_snowflake_connection
+[2024-12-18T06:45:37.103+0000] {task_command.py:467} INFO - Running <TaskInstance: snowflake_connection_check.check_snowflake_connection manual__2024-12-18T06:45:34.551538+00:00 [running]> on host 8348eb091483
+[2024-12-18T06:45:37.227+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='snowflake_connection_check' AIRFLOW_CTX_TASK_ID='check_snowflake_connection' AIRFLOW_CTX_EXECUTION_DATE='2024-12-18T06:45:34.551538+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-18T06:45:34.551538+00:00'
+[2024-12-18T06:45:37.229+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-18T06:45:37.246+0000] {sql.py:278} INFO - Executing: SELECT CURRENT_DATABASE()
+[2024-12-18T06:45:37.262+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-18T06:45:37.276+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-18T06:45:37.278+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-18T06:45:37.279+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-18T06:45:37.280+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-18T06:45:37.739+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-18T06:45:37.741+0000] {sql.py:553} INFO - Running statement: SELECT CURRENT_DATABASE(), parameters: None
+[2024-12-18T06:45:37.846+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-18T06:45:37.847+0000] {sql.py:562} INFO - Rows affected: 1
+[2024-12-18T06:45:37.849+0000] {snowflake.py:447} INFO - Rows affected: 1
+[2024-12-18T06:45:37.850+0000] {snowflake.py:448} INFO - Snowflake query id: 01b91b75-0000-d1e7-0008-6fb60004d1da
+[2024-12-18T06:45:37.903+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-18T06:45:37.904+0000] {connection.py:789} INFO - closed
+[2024-12-18T06:45:37.937+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-18T06:45:38.041+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-18T06:45:38.043+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=snowflake_connection_check, task_id=check_snowflake_connection, run_id=manual__2024-12-18T06:45:34.551538+00:00, execution_date=20241218T064534, start_date=20241218T064536, end_date=20241218T064538
+[2024-12-18T06:45:38.128+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-18T06:45:38.153+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-18T06:45:38.158+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

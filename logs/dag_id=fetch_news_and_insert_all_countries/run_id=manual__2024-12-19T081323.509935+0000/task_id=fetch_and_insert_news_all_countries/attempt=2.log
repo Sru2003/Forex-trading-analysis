@@ -1,0 +1,33 @@
+[2024-12-19T10:22:24.658+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-19T10:22:24.701+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_news_and_insert_all_countries.fetch_and_insert_news_all_countries manual__2024-12-19T08:13:23.509935+00:00 [queued]>
+[2024-12-19T10:22:24.727+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_news_and_insert_all_countries.fetch_and_insert_news_all_countries manual__2024-12-19T08:13:23.509935+00:00 [queued]>
+[2024-12-19T10:22:24.728+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2024-12-19T10:22:24.757+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_insert_news_all_countries> on 2024-12-19 08:13:23.509935+00:00
+[2024-12-19T10:22:24.775+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4548) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-19T10:22:24.773+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fetch_news_and_insert_all_countries', 'fetch_and_insert_news_all_countries', 'manual__2024-12-19T08:13:23.509935+00:00', '--job-id', '2594', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_connector_dag.py', '--cfg-path', '/tmp/tmpaq31_gca']
+[2024-12-19T10:22:24.787+0000] {standard_task_runner.py:72} INFO - Started process 4550 to run task
+[2024-12-19T10:22:24.788+0000] {standard_task_runner.py:105} INFO - Job 2594: Subtask fetch_and_insert_news_all_countries
+[2024-12-19T10:22:24.961+0000] {task_command.py:467} INFO - Running <TaskInstance: fetch_news_and_insert_all_countries.fetch_and_insert_news_all_countries manual__2024-12-19T08:13:23.509935+00:00 [running]> on host 8348eb091483
+[2024-12-19T10:22:25.163+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_news_and_insert_all_countries' AIRFLOW_CTX_TASK_ID='fetch_and_insert_news_all_countries' AIRFLOW_CTX_EXECUTION_DATE='2024-12-19T08:13:23.509935+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-19T08:13:23.509935+00:00'
+[2024-12-19T10:22:25.166+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-19T10:22:25.226+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-19T10:22:25.230+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-19T10:22:25.236+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-19T10:22:25.238+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-19T10:22:25.756+0000] {logging_mixin.py:190} INFO - Processing news for country: CH
+[2024-12-19T10:22:25.759+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-22 to 2020-01-23 for CH...
+[2024-12-19T10:22:27.772+0000] {logging_mixin.py:190} INFO - Error fetching data from 2020-01-22 to 2024-12-18: 'ValueError' object has no attribute 'pos'
+[2024-12-19T10:22:27.775+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-23 to 2020-01-24 for CH...
+[2024-12-19T10:24:36.818+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA2' for CH.
+[2024-12-19T10:24:36.821+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-24 to 2020-01-25 for CH...
+[2024-12-19T10:25:06.995+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-12-19T10:25:06.997+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-19T10:25:07.000+0000] {process_utils.py:132} INFO - Sending 15 to group 4550. PIDs of all processes in the group: [4550]
+[2024-12-19T10:25:07.001+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 4550
+[2024-12-19T10:25:07.002+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-19T10:25:07.003+0000] {connection.py:789} INFO - closed
+[2024-12-19T10:25:07.226+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-19T10:25:07.308+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-19T10:25:07.375+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=4550, status='terminated', exitcode=0, started='10:22:24') (4550) terminated with exit code 0

@@ -1,0 +1,29 @@
+[2024-12-19T08:02:48.309+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-19T08:02:48.339+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_news_and_insert_all_countries.fetch_and_insert_news_all_countries manual__2024-12-19T08:02:43.342601+00:00 [queued]>
+[2024-12-19T08:02:48.360+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_news_and_insert_all_countries.fetch_and_insert_news_all_countries manual__2024-12-19T08:02:43.342601+00:00 [queued]>
+[2024-12-19T08:02:48.362+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-19T08:02:48.389+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_insert_news_all_countries> on 2024-12-19 08:02:43.342601+00:00
+[2024-12-19T08:02:48.402+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=2813) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-19T08:02:48.416+0000] {standard_task_runner.py:72} INFO - Started process 2815 to run task
+[2024-12-19T08:02:48.405+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fetch_news_and_insert_all_countries', 'fetch_and_insert_news_all_countries', 'manual__2024-12-19T08:02:43.342601+00:00', '--job-id', '2591', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_connector_dag.py', '--cfg-path', '/tmp/tmpjz93uwsq']
+[2024-12-19T08:02:48.418+0000] {standard_task_runner.py:105} INFO - Job 2591: Subtask fetch_and_insert_news_all_countries
+[2024-12-19T08:02:48.508+0000] {task_command.py:467} INFO - Running <TaskInstance: fetch_news_and_insert_all_countries.fetch_and_insert_news_all_countries manual__2024-12-19T08:02:43.342601+00:00 [running]> on host 8348eb091483
+[2024-12-19T08:02:48.681+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_news_and_insert_all_countries' AIRFLOW_CTX_TASK_ID='fetch_and_insert_news_all_countries' AIRFLOW_CTX_EXECUTION_DATE='2024-12-19T08:02:43.342601+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-19T08:02:43.342601+00:00'
+[2024-12-19T08:02:48.683+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-19T08:02:48.739+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-19T08:02:48.742+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-19T08:02:48.745+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-19T08:02:48.747+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-19T08:02:49.881+0000] {logging_mixin.py:190} INFO - Processing news for country: CH
+[2024-12-19T08:02:49.883+0000] {logging_mixin.py:190} INFO - Fetching news from 2020-01-22 to 2020-01-23 for CH...
+[2024-12-19T08:02:52.467+0000] {connection.py:789} INFO - closed
+[2024-12-19T08:02:52.651+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-19T08:02:52.689+0000] {logging_mixin.py:190} INFO - Error inserting data into Snowflake: 'ValueError' object has no attribute 'pos'
+[2024-12-19T08:02:52.692+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-19T08:02:52.714+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-19T08:02:52.715+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=fetch_news_and_insert_all_countries, task_id=fetch_and_insert_news_all_countries, run_id=manual__2024-12-19T08:02:43.342601+00:00, execution_date=20241219T080243, start_date=20241219T080248, end_date=20241219T080252
+[2024-12-19T08:02:52.776+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-19T08:02:52.806+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-19T08:02:52.815+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

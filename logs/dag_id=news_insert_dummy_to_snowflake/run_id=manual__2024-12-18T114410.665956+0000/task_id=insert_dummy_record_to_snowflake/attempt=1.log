@@ -1,0 +1,134 @@
+[2024-12-18T11:44:12.842+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-18T11:44:12.904+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: news_insert_dummy_to_snowflake.insert_dummy_record_to_snowflake manual__2024-12-18T11:44:10.665956+00:00 [queued]>
+[2024-12-18T11:44:12.927+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: news_insert_dummy_to_snowflake.insert_dummy_record_to_snowflake manual__2024-12-18T11:44:10.665956+00:00 [queued]>
+[2024-12-18T11:44:12.929+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-18T11:44:12.955+0000] {taskinstance.py:2889} INFO - Executing <Task(SnowflakeOperator): insert_dummy_record_to_snowflake> on 2024-12-18 11:44:10.665956+00:00
+[2024-12-18T11:44:12.965+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1600) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-18T11:44:12.968+0000] {standard_task_runner.py:72} INFO - Started process 1602 to run task
+[2024-12-18T11:44:12.968+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'news_insert_dummy_to_snowflake', 'insert_dummy_record_to_snowflake', 'manual__2024-12-18T11:44:10.665956+00:00', '--job-id', '2565', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_connector_dag.py', '--cfg-path', '/tmp/tmpfebw6m6s']
+[2024-12-18T11:44:12.971+0000] {standard_task_runner.py:105} INFO - Job 2565: Subtask insert_dummy_record_to_snowflake
+[2024-12-18T11:44:13.058+0000] {task_command.py:467} INFO - Running <TaskInstance: news_insert_dummy_to_snowflake.insert_dummy_record_to_snowflake manual__2024-12-18T11:44:10.665956+00:00 [running]> on host 8348eb091483
+[2024-12-18T11:44:13.174+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='news_insert_dummy_to_snowflake' AIRFLOW_CTX_TASK_ID='insert_dummy_record_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2024-12-18T11:44:10.665956+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-18T11:44:10.665956+00:00'
+[2024-12-18T11:44:13.176+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-18T11:44:13.190+0000] {sql.py:278} INFO - Executing: 
+    INSERT INTO NEWS_DATA1 
+    (URL, URL_MOBILE, TITLE, SEENDATE, SOCIALIMAGE, DOMAIN, LANGUAGE, SOURCECOUNTRY)
+    VALUES ('http://dummy.url', 'http://dummy.url/mobile', 'Dummy Title', '2024-12-17', 'http://dummyimage.url', 'dummy.com', 'EN', 'IN')
+    
+[2024-12-18T11:44:13.205+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-18T11:44:13.217+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-18T11:44:13.219+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-18T11:44:13.220+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-18T11:44:13.221+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-18T11:44:13.779+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-18T11:44:13.781+0000] {sql.py:553} INFO - Running statement: INSERT INTO NEWS_DATA1 
+    (URL, URL_MOBILE, TITLE, SEENDATE, SOCIALIMAGE, DOMAIN, LANGUAGE, SOURCECOUNTRY)
+    VALUES ('http://dummy.url', 'http://dummy.url/mobile', 'Dummy Title', '2024-12-17', 'http://dummyimage.url', 'dummy.com', 'EN', 'IN'), parameters: None
+[2024-12-18T11:44:13.866+0000] {connection.py:789} INFO - closed
+[2024-12-18T11:44:13.893+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-18T11:44:13.938+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 284, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 435, in run
+    self._run_command(cur, sql_statement, parameters)  # type: ignore[attr-defined]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 558, in _run_command
+    cur.execute(sql_statement)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 1097, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 339, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 000606 (57P03): 01b91c9f-0000-d1e7-0008-6fb60004dd82: No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+
+[2024-12-18T11:44:13.955+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=news_insert_dummy_to_snowflake, task_id=insert_dummy_record_to_snowflake, run_id=manual__2024-12-18T11:44:10.665956+00:00, execution_date=20241218T114410, start_date=20241218T114412, end_date=20241218T114413
+[2024-12-18T11:44:13.984+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-18T11:44:13.985+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 2565 for task insert_dummy_record_to_snowflake (000606 (57P03): 01b91c9f-0000-d1e7-0008-6fb60004dd82: No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+; 1602)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 284, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 435, in run
+    self._run_command(cur, sql_statement, parameters)  # type: ignore[attr-defined]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 558, in _run_command
+    cur.execute(sql_statement)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 1097, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 339, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 000606 (57P03): 01b91c9f-0000-d1e7-0008-6fb60004dd82: No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+
+[2024-12-18T11:44:14.029+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-18T11:44:14.058+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-18T11:44:14.063+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

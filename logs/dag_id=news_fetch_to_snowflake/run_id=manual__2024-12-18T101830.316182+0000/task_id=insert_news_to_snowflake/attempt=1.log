@@ -1,0 +1,22 @@
+[2024-12-18T10:22:12.750+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-18T10:22:12.774+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: news_fetch_to_snowflake.insert_news_to_snowflake manual__2024-12-18T10:18:30.316182+00:00 [queued]>
+[2024-12-18T10:22:12.787+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: news_fetch_to_snowflake.insert_news_to_snowflake manual__2024-12-18T10:18:30.316182+00:00 [queued]>
+[2024-12-18T10:22:12.789+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-18T10:22:12.809+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): insert_news_to_snowflake> on 2024-12-18 10:18:30.316182+00:00
+[2024-12-18T10:22:12.817+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=547) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-18T10:22:12.819+0000] {standard_task_runner.py:72} INFO - Started process 549 to run task
+[2024-12-18T10:22:12.820+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'news_fetch_to_snowflake', 'insert_news_to_snowflake', 'manual__2024-12-18T10:18:30.316182+00:00', '--job-id', '2559', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_connector_dag.py', '--cfg-path', '/tmp/tmp3m_vyddn']
+[2024-12-18T10:22:12.824+0000] {standard_task_runner.py:105} INFO - Job 2559: Subtask insert_news_to_snowflake
+[2024-12-18T10:22:12.887+0000] {task_command.py:467} INFO - Running <TaskInstance: news_fetch_to_snowflake.insert_news_to_snowflake manual__2024-12-18T10:18:30.316182+00:00 [running]> on host 8348eb091483
+[2024-12-18T10:22:13.008+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='news_fetch_to_snowflake' AIRFLOW_CTX_TASK_ID='insert_news_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2024-12-18T10:18:30.316182+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-18T10:18:30.316182+00:00'
+[2024-12-18T10:22:13.010+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-18T10:22:13.051+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-18T10:22:13.053+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-18T10:22:13.066+0000] {logging_mixin.py:190} INFO - Error inserting data into Snowflake: 251005: 251005: User is empty
+[2024-12-18T10:22:13.067+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-18T10:22:13.081+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-18T10:22:13.082+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=news_fetch_to_snowflake, task_id=insert_news_to_snowflake, run_id=manual__2024-12-18T10:18:30.316182+00:00, execution_date=20241218T101830, start_date=20241218T102212, end_date=20241218T102213
+[2024-12-18T10:22:13.156+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-18T10:22:13.171+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,34 @@
+[2024-12-20T06:56:38.678+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-20T06:56:38.705+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test.fetch manual__2024-12-20T06:56:36.106861+00:00 [queued]>
+[2024-12-20T06:56:38.717+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test.fetch manual__2024-12-20T06:56:36.106861+00:00 [queued]>
+[2024-12-20T06:56:38.719+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-20T06:56:38.744+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch> on 2024-12-20 06:56:36.106861+00:00
+[2024-12-20T06:56:38.756+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=15143) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-20T06:56:38.759+0000] {standard_task_runner.py:72} INFO - Started process 15145 to run task
+[2024-12-20T06:56:38.758+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'test', 'fetch', 'manual__2024-12-20T06:56:36.106861+00:00', '--job-id', '2634', '--raw', '--subdir', 'DAGS_FOLDER/dynamic_date_fetching.py', '--cfg-path', '/tmp/tmpp3arlm1w']
+[2024-12-20T06:56:38.761+0000] {standard_task_runner.py:105} INFO - Job 2634: Subtask fetch
+[2024-12-20T06:56:38.830+0000] {task_command.py:467} INFO - Running <TaskInstance: test.fetch manual__2024-12-20T06:56:36.106861+00:00 [running]> on host 7b4c45f22bd5
+[2024-12-20T06:56:38.958+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test' AIRFLOW_CTX_TASK_ID='fetch' AIRFLOW_CTX_EXECUTION_DATE='2024-12-20T06:56:36.106861+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-20T06:56:36.106861+00:00'
+[2024-12-20T06:56:38.960+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-20T06:56:39.004+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-20T06:56:39.007+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-20T06:56:39.009+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-20T06:56:39.010+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-20T06:56:39.988+0000] {cursor.py:1166} INFO - Number of results in first chunk: 11
+[2024-12-20T06:56:40.096+0000] {cursor.py:1166} INFO - Number of results in first chunk: 5
+[2024-12-20T06:56:40.097+0000] {logging_mixin.py:190} INFO - Fetched Keywords: ['currency', 'forex', 'finance', 'disease', 'war', 'election', 'pandemic', 'inflation', 'bank', 'trade', 'treaty']
+[2024-12-20T06:56:40.098+0000] {logging_mixin.py:190} INFO - Fetched Countries: ['IN', 'UK', 'AU', 'US', 'CA']
+[2024-12-20T06:56:40.099+0000] {logging_mixin.py:190} INFO - Processing news for country: IN
+[2024-12-20T06:56:40.592+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-20T06:56:40.593+0000] {logging_mixin.py:190} INFO - 2020-01-04
+[2024-12-20T06:56:40.595+0000] {connection.py:789} INFO - closed
+[2024-12-20T06:56:40.622+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-20T06:56:40.659+0000] {logging_mixin.py:190} INFO - Error inserting data into Snowflake: can't compare datetime.datetime to datetime.date
+[2024-12-20T06:56:40.661+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-20T06:56:40.677+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-20T06:56:40.678+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=test, task_id=fetch, run_id=manual__2024-12-20T06:56:36.106861+00:00, execution_date=20241220T065636, start_date=20241220T065638, end_date=20241220T065640
+[2024-12-20T06:56:40.745+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-20T06:56:40.772+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-20T06:56:40.778+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,3 @@
+[2024-12-23T08:08:01.768+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-23T08:08:01.797+0000] {taskinstance.py:2603} INFO - Dependencies not met for <TaskInstance: test.fetch_and_insert_news_all_countries manual__2024-12-23T06:57:07.905537+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2024-12-23T08:08:01.802+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run

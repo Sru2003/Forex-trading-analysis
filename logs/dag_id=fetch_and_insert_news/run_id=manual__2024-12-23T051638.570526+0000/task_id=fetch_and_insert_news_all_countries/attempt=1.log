@@ -1,0 +1,25 @@
+[2024-12-23T05:16:43.347+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-23T05:16:43.377+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_and_insert_news.fetch_and_insert_news_all_countries manual__2024-12-23T05:16:38.570526+00:00 [queued]>
+[2024-12-23T05:16:43.401+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_and_insert_news.fetch_and_insert_news_all_countries manual__2024-12-23T05:16:38.570526+00:00 [queued]>
+[2024-12-23T05:16:43.404+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-23T05:16:43.458+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_insert_news_all_countries> on 2024-12-23 05:16:38.570526+00:00
+[2024-12-23T05:16:43.478+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=49852) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-23T05:16:43.481+0000] {standard_task_runner.py:72} INFO - Started process 49854 to run task
+[2024-12-23T05:16:43.480+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fetch_and_insert_news', 'fetch_and_insert_news_all_countries', 'manual__2024-12-23T05:16:38.570526+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_connector_dag.py', '--cfg-path', '/tmp/tmp5ck_tqn7']
+[2024-12-23T05:16:43.489+0000] {standard_task_runner.py:105} INFO - Job 24: Subtask fetch_and_insert_news_all_countries
+[2024-12-23T05:16:43.583+0000] {task_command.py:467} INFO - Running <TaskInstance: fetch_and_insert_news.fetch_and_insert_news_all_countries manual__2024-12-23T05:16:38.570526+00:00 [running]> on host 4fe538676cbc
+[2024-12-23T05:16:43.796+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='srush' AIRFLOW_CTX_DAG_ID='fetch_and_insert_news' AIRFLOW_CTX_TASK_ID='fetch_and_insert_news_all_countries' AIRFLOW_CTX_EXECUTION_DATE='2024-12-23T05:16:38.570526+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-23T05:16:38.570526+00:00'
+[2024-12-23T05:16:43.800+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-23T05:16:43.858+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-23T05:16:43.861+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-23T05:16:43.864+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-23T05:16:43.866+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-23T05:16:44.386+0000] {logging_mixin.py:190} INFO - Error fetching configuration or inserting data into Snowflake: 250001 (08001): None: Failed to connect to DB: pdfhwro-uc15394.snowflakecomputing.com:443. Your user account has been temporarily locked due to too many failed attempts. Try again after 15 minutes or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked.
+[2024-12-23T05:16:44.387+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-23T05:16:44.404+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-23T05:16:44.406+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=fetch_and_insert_news, task_id=fetch_and_insert_news_all_countries, run_id=manual__2024-12-23T05:16:38.570526+00:00, execution_date=20241223T051638, start_date=20241223T051643, end_date=20241223T051644
+[2024-12-23T05:16:44.464+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-23T05:16:44.488+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-23T05:16:44.493+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

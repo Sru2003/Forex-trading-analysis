@@ -1,0 +1,35 @@
+[2024-12-20T08:45:52.760+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-20T08:45:52.811+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_and_insert_news.fetch_and_insert_news_all_countries manual__2024-12-20T08:42:29.080330+00:00 [queued]>
+[2024-12-20T08:45:52.842+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_and_insert_news.fetch_and_insert_news_all_countries manual__2024-12-20T08:42:29.080330+00:00 [queued]>
+[2024-12-20T08:45:52.844+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 3
+[2024-12-20T08:45:52.888+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_insert_news_all_countries> on 2024-12-20 08:42:29.080330+00:00
+[2024-12-20T08:45:52.905+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=205) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-20T08:45:52.908+0000] {standard_task_runner.py:72} INFO - Started process 207 to run task
+[2024-12-20T08:45:52.908+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fetch_and_insert_news', 'fetch_and_insert_news_all_countries', 'manual__2024-12-20T08:42:29.080330+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_connector_dag.py', '--cfg-path', '/tmp/tmpjjimg5t1']
+[2024-12-20T08:45:52.919+0000] {standard_task_runner.py:105} INFO - Job 5: Subtask fetch_and_insert_news_all_countries
+[2024-12-20T08:45:53.127+0000] {task_command.py:467} INFO - Running <TaskInstance: fetch_and_insert_news.fetch_and_insert_news_all_countries manual__2024-12-20T08:42:29.080330+00:00 [running]> on host 7d5d2ab8c58f
+[2024-12-20T08:45:53.333+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='srush' AIRFLOW_CTX_DAG_ID='fetch_and_insert_news' AIRFLOW_CTX_TASK_ID='fetch_and_insert_news_all_countries' AIRFLOW_CTX_EXECUTION_DATE='2024-12-20T08:42:29.080330+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-20T08:42:29.080330+00:00'
+[2024-12-20T08:45:53.338+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-20T08:45:53.385+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-20T08:45:53.388+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-20T08:45:53.393+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-20T08:45:53.394+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-20T08:45:55.456+0000] {cursor.py:1166} INFO - Number of results in first chunk: 11
+[2024-12-20T08:45:55.526+0000] {cursor.py:1166} INFO - Number of results in first chunk: 5
+[2024-12-20T08:45:55.528+0000] {logging_mixin.py:190} INFO - Fetched Keywords: ['currency', 'forex', 'finance', 'disease', 'war', 'election', 'pandemic', 'inflation', 'bank', 'trade', 'treaty']
+[2024-12-20T08:45:55.529+0000] {logging_mixin.py:190} INFO - Fetched Countries: ['CH', 'JA', 'NZ', 'SZ', 'RS']
+[2024-12-20T08:45:55.530+0000] {logging_mixin.py:190} INFO - Processing news for country: CH
+[2024-12-20T08:45:58.534+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-03-13 to 2024-03-14 for CH...
+[2024-12-20T08:45:59.425+0000] {logging_mixin.py:190} INFO - Error fetching data for date: 2024-03-13 and country: CH. Error: The gdelt api returned a non-successful statuscode. This is the response message: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.
+[2024-12-20T08:46:02.427+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-03-14 to 2024-03-15 for CH...
+[2024-12-20T08:46:03.043+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-12-20T08:46:03.045+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-20T08:46:03.047+0000] {process_utils.py:132} INFO - Sending 15 to group 207. PIDs of all processes in the group: [207]
+[2024-12-20T08:46:03.048+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 207
+[2024-12-20T08:46:03.049+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-20T08:46:03.051+0000] {connection.py:789} INFO - closed
+[2024-12-20T08:46:03.078+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-20T08:46:03.155+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-20T08:46:03.223+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=207, status='terminated', exitcode=0, started='08:45:51') (207) terminated with exit code 0

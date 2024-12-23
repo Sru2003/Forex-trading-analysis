@@ -1,0 +1,49 @@
+[2024-12-20T05:22:34.982+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-20T05:22:35.013+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: demo_fetch_news.fetch_and_insert_news_all_countries manual__2024-12-20T05:22:27.613061+00:00 [queued]>
+[2024-12-20T05:22:35.029+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: demo_fetch_news.fetch_and_insert_news_all_countries manual__2024-12-20T05:22:27.613061+00:00 [queued]>
+[2024-12-20T05:22:35.030+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-20T05:22:35.056+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_insert_news_all_countries> on 2024-12-20 05:22:27.613061+00:00
+[2024-12-20T05:22:35.071+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=13928) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-20T05:22:35.077+0000] {standard_task_runner.py:72} INFO - Started process 13934 to run task
+[2024-12-20T05:22:35.080+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'demo_fetch_news', 'fetch_and_insert_news_all_countries', 'manual__2024-12-20T05:22:27.613061+00:00', '--job-id', '2621', '--raw', '--subdir', 'DAGS_FOLDER/batch_dag.py', '--cfg-path', '/tmp/tmpgvb6xazi']
+[2024-12-20T05:22:35.085+0000] {standard_task_runner.py:105} INFO - Job 2621: Subtask fetch_and_insert_news_all_countries
+[2024-12-20T05:22:35.327+0000] {task_command.py:467} INFO - Running <TaskInstance: demo_fetch_news.fetch_and_insert_news_all_countries manual__2024-12-20T05:22:27.613061+00:00 [running]> on host 7b4c45f22bd5
+[2024-12-20T05:22:35.557+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='srush' AIRFLOW_CTX_DAG_ID='demo_fetch_news' AIRFLOW_CTX_TASK_ID='fetch_and_insert_news_all_countries' AIRFLOW_CTX_EXECUTION_DATE='2024-12-20T05:22:27.613061+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-20T05:22:27.613061+00:00'
+[2024-12-20T05:22:35.566+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-20T05:22:35.730+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2024-12-20T05:22:35.732+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-20T05:22:35.737+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-20T05:22:35.738+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-20T05:22:36.671+0000] {cursor.py:1166} INFO - Number of results in first chunk: 11
+[2024-12-20T05:22:36.741+0000] {cursor.py:1166} INFO - Number of results in first chunk: 5
+[2024-12-20T05:22:36.744+0000] {logging_mixin.py:190} INFO - Fetched Keywords: ['currency', 'forex', 'finance', 'disease', 'war', 'election', 'pandemic', 'inflation', 'bank', 'trade', 'treaty']
+[2024-12-20T05:22:36.746+0000] {logging_mixin.py:190} INFO - Fetched Countries: ['CH', 'JA', 'NZ', 'SZ', 'RS']
+[2024-12-20T05:22:36.747+0000] {logging_mixin.py:190} INFO - Processing news for country: CH
+[2024-12-20T05:22:41.752+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-18 to 2024-12-19 for CH...
+[2024-12-20T05:22:44.821+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table for CH.
+[2024-12-20T05:22:49.823+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-19 to 2024-12-20 for CH...
+[2024-12-20T05:22:52.115+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table for CH.
+[2024-12-20T05:22:52.116+0000] {logging_mixin.py:190} INFO - Processing news for country: JA
+[2024-12-20T05:22:57.115+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-18 to 2024-12-19 for JA...
+[2024-12-20T05:22:59.561+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table for JA.
+[2024-12-20T05:23:04.562+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-19 to 2024-12-20 for JA...
+[2024-12-20T05:23:08.943+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table for JA.
+[2024-12-20T05:23:08.944+0000] {logging_mixin.py:190} INFO - Processing news for country: NZ
+[2024-12-20T05:23:13.946+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-18 to 2024-12-19 for NZ...
+[2024-12-20T05:23:16.829+0000] {logging_mixin.py:190} INFO - Inserted 115 articles into Snowflake table for NZ.
+[2024-12-20T05:23:21.831+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-19 to 2024-12-20 for NZ...
+[2024-12-20T05:23:24.074+0000] {logging_mixin.py:190} INFO - Inserted 99 articles into Snowflake table for NZ.
+[2024-12-20T05:23:24.075+0000] {logging_mixin.py:190} INFO - Processing news for country: SZ
+[2024-12-20T05:23:29.075+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-18 to 2024-12-19 for SZ...
+[2024-12-20T05:23:33.629+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table for SZ.
+[2024-12-20T05:23:35.916+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-12-20T05:23:35.920+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-20T05:23:35.922+0000] {process_utils.py:132} INFO - Sending 15 to group 13934. PIDs of all processes in the group: [13934]
+[2024-12-20T05:23:35.923+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 13934
+[2024-12-20T05:23:35.924+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-20T05:23:35.925+0000] {connection.py:789} INFO - closed
+[2024-12-20T05:23:35.952+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-20T05:23:36.091+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-20T05:23:36.137+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=13934, status='terminated', exitcode=0, started='05:22:34') (13934) terminated with exit code 0
