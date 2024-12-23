@@ -7423,3 +7423,1312 @@ IndentationError: unexpected indent
 [2024-12-23T08:52:01.891+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:52:01.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T08:52:01.920+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:52:01.920+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
 [2024-12-23T08:52:01.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.159 seconds
+[2024-12-23T08:52:32.497+0000] {processor.py:186} INFO - Started process (PID=99079) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:52:32.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:52:32.502+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:52:32.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:52:32.542+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:52:32.586+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:52:32.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:52:32.616+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:52:32.616+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:52:32.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.164 seconds
+[2024-12-23T08:53:03.526+0000] {processor.py:186} INFO - Started process (PID=99091) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:53:03.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:53:03.530+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:53:03.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:53:03.572+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:53:03.620+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:53:03.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:53:03.651+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:53:03.651+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:53:03.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.179 seconds
+[2024-12-23T08:53:34.534+0000] {processor.py:186} INFO - Started process (PID=99103) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:53:34.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:53:34.538+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:53:34.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:53:34.570+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:53:34.614+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:53:34.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:53:34.640+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:53:34.640+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:53:34.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.148 seconds
+[2024-12-23T08:54:05.626+0000] {processor.py:186} INFO - Started process (PID=99115) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:54:05.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:54:05.630+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:54:05.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:54:05.665+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:54:05.702+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:54:05.702+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:54:05.727+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:54:05.726+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:54:05.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.149 seconds
+[2024-12-23T08:54:36.415+0000] {processor.py:186} INFO - Started process (PID=99127) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:54:36.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:54:36.420+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:54:36.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:54:36.449+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:54:36.483+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:54:36.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:54:36.505+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:54:36.504+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:54:36.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.124 seconds
+[2024-12-23T08:55:07.137+0000] {processor.py:186} INFO - Started process (PID=99139) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:55:07.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:55:07.141+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:55:07.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:55:07.167+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:55:07.199+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:55:07.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:55:07.218+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:55:07.218+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:55:07.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.114 seconds
+[2024-12-23T08:55:38.047+0000] {processor.py:186} INFO - Started process (PID=99152) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:55:38.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:55:38.050+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:55:38.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:55:38.082+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:55:38.118+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:55:38.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:55:38.140+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:55:38.140+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:55:38.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T08:56:08.882+0000] {processor.py:186} INFO - Started process (PID=99164) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:56:08.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:56:08.886+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:56:08.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:56:08.922+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:56:08.959+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:56:08.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:56:08.978+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:56:08.978+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:56:09.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.136 seconds
+[2024-12-23T08:56:39.778+0000] {processor.py:186} INFO - Started process (PID=99176) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:56:39.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:56:39.781+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:56:39.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:56:39.803+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:56:39.832+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:56:39.832+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:56:39.851+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:56:39.851+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:56:39.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.124 seconds
+[2024-12-23T08:57:10.726+0000] {processor.py:186} INFO - Started process (PID=99188) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:57:10.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:57:10.729+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:57:10.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:57:10.753+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:57:10.786+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:57:10.786+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:57:10.807+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:57:10.807+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:57:10.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.122 seconds
+[2024-12-23T08:57:41.521+0000] {processor.py:186} INFO - Started process (PID=99200) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:57:41.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:57:41.525+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:57:41.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:57:41.557+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:57:41.592+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:57:41.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:57:41.617+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:57:41.617+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:57:41.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.142 seconds
+[2024-12-23T08:58:12.364+0000] {processor.py:186} INFO - Started process (PID=99212) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:58:12.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:58:12.368+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:58:12.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:58:12.403+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:58:12.440+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:58:12.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:58:12.468+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:58:12.467+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:58:12.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.150 seconds
+[2024-12-23T08:58:43.172+0000] {processor.py:186} INFO - Started process (PID=99224) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:58:43.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:58:43.175+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:58:43.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:58:43.201+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:58:43.241+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:58:43.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:58:43.264+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:58:43.264+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:58:43.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.136 seconds
+[2024-12-23T08:59:14.085+0000] {processor.py:186} INFO - Started process (PID=99236) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:59:14.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:59:14.089+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:59:14.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:59:14.113+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:59:14.145+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:59:14.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:59:14.166+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:59:14.165+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:59:14.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.128 seconds
+[2024-12-23T08:59:44.862+0000] {processor.py:186} INFO - Started process (PID=99248) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:59:44.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T08:59:44.866+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:59:44.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:59:44.902+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T08:59:44.935+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:59:44.935+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T08:59:44.954+0000] {logging_mixin.py:190} INFO - [2024-12-23T08:59:44.954+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T08:59:44.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.129 seconds
+[2024-12-23T09:00:15.737+0000] {processor.py:186} INFO - Started process (PID=99260) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:00:15.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:00:15.741+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:00:15.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:00:15.769+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:00:15.807+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:00:15.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:00:15.834+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:00:15.833+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:00:15.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.144 seconds
+[2024-12-23T09:00:46.027+0000] {processor.py:186} INFO - Started process (PID=99272) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:00:46.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:00:46.030+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:00:46.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:00:46.065+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:00:46.145+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:00:46.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:00:46.179+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:00:46.178+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:00:46.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.202 seconds
+[2024-12-23T09:01:17.182+0000] {processor.py:186} INFO - Started process (PID=99284) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:01:17.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:01:17.186+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:01:17.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:01:17.220+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:01:17.258+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:01:17.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:01:17.286+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:01:17.286+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:01:17.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.155 seconds
+[2024-12-23T09:01:48.015+0000] {processor.py:186} INFO - Started process (PID=99296) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:01:48.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:01:48.018+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:01:48.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:01:48.050+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:01:48.085+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:01:48.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:01:48.105+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:01:48.104+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:01:48.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.136 seconds
+[2024-12-23T09:02:18.774+0000] {processor.py:186} INFO - Started process (PID=99308) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:02:18.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:02:18.777+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:02:18.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:02:18.807+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:02:18.846+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:02:18.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:02:18.867+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:02:18.866+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:02:18.905+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.137 seconds
+[2024-12-23T09:02:49.552+0000] {processor.py:186} INFO - Started process (PID=99326) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:02:49.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:02:49.556+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:02:49.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:02:49.588+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:02:49.623+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:02:49.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:02:49.647+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:02:49.647+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:02:49.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.140 seconds
+[2024-12-23T09:03:20.339+0000] {processor.py:186} INFO - Started process (PID=99339) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:03:20.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:03:20.343+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:03:20.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:03:20.367+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:03:20.395+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:03:20.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:03:20.417+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:03:20.416+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:03:20.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.119 seconds
+[2024-12-23T09:03:51.080+0000] {processor.py:186} INFO - Started process (PID=99351) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:03:51.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:03:51.083+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:03:51.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:03:51.107+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:03:51.140+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:03:51.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:03:51.161+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:03:51.161+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:03:51.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.116 seconds
+[2024-12-23T09:04:21.989+0000] {processor.py:186} INFO - Started process (PID=99363) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:04:21.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:04:21.992+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:04:21.991+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:04:22.018+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:04:22.049+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:04:22.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:04:22.067+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:04:22.067+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:04:22.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.119 seconds
+[2024-12-23T09:04:52.765+0000] {processor.py:186} INFO - Started process (PID=99375) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:04:52.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:04:52.768+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:04:52.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:04:52.792+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:04:52.825+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:04:52.825+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:04:52.846+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:04:52.846+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:04:52.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.123 seconds
+[2024-12-23T09:05:23.812+0000] {processor.py:186} INFO - Started process (PID=99387) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:05:23.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:05:23.816+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:05:23.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:05:23.841+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:05:23.871+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:05:23.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:05:23.890+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:05:23.889+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:05:23.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.112 seconds
+[2024-12-23T09:05:54.624+0000] {processor.py:186} INFO - Started process (PID=99399) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:05:54.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:05:54.627+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:05:54.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:05:54.651+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:05:54.682+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:05:54.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:05:54.701+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:05:54.701+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:05:54.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.110 seconds
+[2024-12-23T09:06:25.419+0000] {processor.py:186} INFO - Started process (PID=99411) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:06:25.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:06:25.423+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:06:25.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:06:25.461+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:06:25.519+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:06:25.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:06:25.568+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:06:25.567+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:06:25.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.214 seconds
+[2024-12-23T09:06:56.304+0000] {processor.py:186} INFO - Started process (PID=99423) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:06:56.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:06:56.308+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:06:56.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:06:56.338+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:06:56.381+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:06:56.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:06:56.406+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:06:56.406+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:06:56.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.149 seconds
+[2024-12-23T09:07:26.586+0000] {processor.py:186} INFO - Started process (PID=99435) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:07:26.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:07:26.590+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:07:26.589+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:07:26.619+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:07:26.671+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:07:26.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:07:26.700+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:07:26.700+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:07:26.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.177 seconds
+[2024-12-23T09:07:57.674+0000] {processor.py:186} INFO - Started process (PID=99447) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:07:57.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:07:57.677+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:07:57.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:07:57.704+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:07:57.733+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:07:57.732+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:07:57.750+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:07:57.749+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:07:57.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.111 seconds
+[2024-12-23T09:08:28.386+0000] {processor.py:186} INFO - Started process (PID=99459) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:08:28.387+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:08:28.394+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:08:28.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:08:28.427+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:08:28.463+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:08:28.462+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:08:28.486+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:08:28.485+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:08:28.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.147 seconds
+[2024-12-23T09:08:59.163+0000] {processor.py:186} INFO - Started process (PID=99471) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:08:59.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:08:59.166+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:08:59.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:08:59.191+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:08:59.223+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:08:59.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:08:59.240+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:08:59.240+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:08:59.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.110 seconds
+[2024-12-23T09:09:29.941+0000] {processor.py:186} INFO - Started process (PID=99484) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:09:29.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:09:29.944+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:09:29.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:09:29.966+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:09:29.997+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:09:29.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:09:30.015+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:09:30.015+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:09:30.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.114 seconds
+[2024-12-23T09:10:00.658+0000] {processor.py:186} INFO - Started process (PID=99496) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:10:00.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:10:00.661+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:10:00.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:10:00.689+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:10:00.719+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:10:00.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:10:00.740+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:10:00.739+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:10:00.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.115 seconds
+[2024-12-23T09:10:31.667+0000] {processor.py:186} INFO - Started process (PID=99508) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:10:31.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:10:31.669+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:10:31.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:10:31.694+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:10:31.734+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:10:31.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:10:31.755+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:10:31.754+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:10:31.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.131 seconds
+[2024-12-23T09:11:02.008+0000] {processor.py:186} INFO - Started process (PID=99520) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:11:02.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:11:02.010+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:11:02.010+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:11:02.033+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:11:02.067+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:11:02.066+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:11:02.084+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:11:02.083+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:11:02.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.107 seconds
+[2024-12-23T09:11:32.785+0000] {processor.py:186} INFO - Started process (PID=99532) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:11:32.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:11:32.788+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:11:32.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:11:32.813+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:11:32.845+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:11:32.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:11:32.866+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:11:32.866+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:11:32.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.120 seconds
+[2024-12-23T09:12:03.571+0000] {processor.py:186} INFO - Started process (PID=99544) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:12:03.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:12:03.575+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:12:03.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:12:03.607+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:12:03.638+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:12:03.637+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:12:03.656+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:12:03.655+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:12:03.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.129 seconds
+[2024-12-23T09:12:34.373+0000] {processor.py:186} INFO - Started process (PID=99556) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:12:34.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:12:34.379+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:12:34.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:12:34.417+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:12:34.453+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:12:34.453+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:12:34.482+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:12:34.482+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:12:34.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.151 seconds
+[2024-12-23T09:13:05.153+0000] {processor.py:186} INFO - Started process (PID=99568) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:13:05.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:13:05.157+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:13:05.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:13:05.180+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:13:05.214+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:13:05.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:13:05.236+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:13:05.236+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:13:05.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.122 seconds
+[2024-12-23T09:13:35.927+0000] {processor.py:186} INFO - Started process (PID=99580) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:13:35.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:13:35.930+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:13:35.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:13:35.959+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:13:35.997+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:13:35.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:13:36.021+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:13:36.021+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:13:36.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.131 seconds
+[2024-12-23T09:14:06.697+0000] {processor.py:186} INFO - Started process (PID=99592) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:14:06.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:14:06.700+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:14:06.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:14:06.726+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:14:06.761+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:14:06.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:14:06.781+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:14:06.781+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:14:06.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.129 seconds
+[2024-12-23T09:14:37.496+0000] {processor.py:186} INFO - Started process (PID=99604) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:14:37.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:14:37.499+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:14:37.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:14:37.525+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:14:37.558+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:14:37.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:14:37.577+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:14:37.577+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:14:37.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.123 seconds
+[2024-12-23T09:15:08.263+0000] {processor.py:186} INFO - Started process (PID=99616) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:15:08.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:15:08.267+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:15:08.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:15:08.295+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:15:08.332+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:15:08.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:15:08.355+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:15:08.354+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:15:08.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T09:15:39.116+0000] {processor.py:186} INFO - Started process (PID=99628) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:15:39.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:15:39.120+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:15:39.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:15:39.147+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:15:39.185+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:15:39.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:15:39.210+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:15:39.210+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:15:39.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.141 seconds
+[2024-12-23T09:16:09.917+0000] {processor.py:186} INFO - Started process (PID=99640) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:16:09.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:16:09.920+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:16:09.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:16:09.945+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:16:09.975+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:16:09.975+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:16:09.993+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:16:09.993+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:16:10.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.109 seconds
+[2024-12-23T09:16:40.714+0000] {processor.py:186} INFO - Started process (PID=99652) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:16:40.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:16:40.718+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:16:40.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:16:40.744+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:16:40.775+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:16:40.774+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:16:40.798+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:16:40.797+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:16:40.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.125 seconds
+[2024-12-23T09:17:11.601+0000] {processor.py:186} INFO - Started process (PID=99664) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:17:11.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:17:11.607+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:17:11.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:17:11.651+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:17:11.697+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:17:11.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:17:11.721+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:17:11.721+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:17:11.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.166 seconds
+[2024-12-23T09:17:42.432+0000] {processor.py:186} INFO - Started process (PID=99676) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:17:42.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:17:42.435+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:17:42.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:17:42.457+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:17:42.487+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:17:42.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:17:42.507+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:17:42.506+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:17:42.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.115 seconds
+[2024-12-23T09:18:13.172+0000] {processor.py:186} INFO - Started process (PID=99688) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:18:13.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:18:13.174+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:18:13.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:18:13.199+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:18:13.229+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:18:13.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:18:13.248+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:18:13.248+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:18:13.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.116 seconds
+[2024-12-23T09:18:44.103+0000] {processor.py:186} INFO - Started process (PID=99700) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:18:44.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:18:44.107+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:18:44.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:18:44.141+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:18:44.178+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:18:44.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:18:44.200+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:18:44.199+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:18:44.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.134 seconds
+[2024-12-23T09:19:14.904+0000] {processor.py:186} INFO - Started process (PID=99712) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:19:14.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:19:14.907+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:19:14.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:19:14.934+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:19:14.970+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:19:14.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:19:14.993+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:19:14.993+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:19:15.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.134 seconds
+[2024-12-23T09:19:45.820+0000] {processor.py:186} INFO - Started process (PID=99724) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:19:45.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:19:45.823+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:19:45.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:19:45.852+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:19:45.893+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:19:45.893+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:19:45.921+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:19:45.920+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:19:45.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.148 seconds
+[2024-12-23T09:20:16.621+0000] {processor.py:186} INFO - Started process (PID=99736) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:20:16.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:20:16.625+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:20:16.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:20:16.657+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:20:16.691+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:20:16.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:20:16.713+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:20:16.712+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:20:16.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.129 seconds
+[2024-12-23T09:20:47.684+0000] {processor.py:186} INFO - Started process (PID=99748) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:20:47.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:20:47.687+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:20:47.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:20:47.718+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:20:47.754+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:20:47.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:20:47.777+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:20:47.777+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:20:47.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.139 seconds
+[2024-12-23T09:21:18.466+0000] {processor.py:186} INFO - Started process (PID=99760) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:21:18.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:21:18.470+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:21:18.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:21:18.497+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:21:18.529+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:21:18.528+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:21:18.551+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:21:18.550+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:21:18.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.128 seconds
+[2024-12-23T09:21:49.251+0000] {processor.py:186} INFO - Started process (PID=99772) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:21:49.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:21:49.255+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:21:49.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:21:49.288+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:21:49.327+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:21:49.326+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:21:49.351+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:21:49.350+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:21:49.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.147 seconds
+[2024-12-23T09:22:20.087+0000] {processor.py:186} INFO - Started process (PID=99784) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:22:20.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:22:20.091+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:22:20.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:22:20.126+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:22:20.167+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:22:20.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:22:20.190+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:22:20.189+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:22:20.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.151 seconds
+[2024-12-23T09:22:50.929+0000] {processor.py:186} INFO - Started process (PID=99796) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:22:50.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:22:50.933+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:22:50.932+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:22:50.966+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:22:51.022+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:22:51.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:22:51.048+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:22:51.047+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:22:51.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.163 seconds
+[2024-12-23T09:23:21.754+0000] {processor.py:186} INFO - Started process (PID=99814) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:23:21.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:23:21.756+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:23:21.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:23:21.779+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:23:21.808+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:23:21.808+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:23:21.828+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:23:21.828+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:23:21.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.114 seconds
+[2024-12-23T09:23:52.082+0000] {processor.py:186} INFO - Started process (PID=99826) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:23:52.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:23:52.085+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:23:52.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:23:52.107+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:23:52.138+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:23:52.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:23:52.157+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:23:52.157+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:23:52.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.111 seconds
+[2024-12-23T09:24:22.883+0000] {processor.py:186} INFO - Started process (PID=99838) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:24:22.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:24:22.886+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:24:22.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:24:22.915+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:24:22.955+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:24:22.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:24:22.975+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:24:22.975+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:24:23.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.139 seconds
+[2024-12-23T09:24:53.728+0000] {processor.py:186} INFO - Started process (PID=99850) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:24:53.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:24:53.732+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:24:53.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:24:53.771+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:24:53.815+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:24:53.814+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:24:53.842+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:24:53.841+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:24:53.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.164 seconds
+[2024-12-23T09:25:24.878+0000] {processor.py:186} INFO - Started process (PID=99862) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:25:24.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:25:24.890+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:25:24.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:25:24.923+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:25:24.960+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:25:24.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:25:24.987+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:25:24.986+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:25:25.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.174 seconds
+[2024-12-23T09:25:55.449+0000] {processor.py:186} INFO - Started process (PID=99874) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:25:55.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:25:55.452+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:25:55.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:25:55.477+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:25:55.509+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:25:55.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:25:55.527+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:25:55.527+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:25:55.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.118 seconds
+[2024-12-23T09:26:26.474+0000] {processor.py:186} INFO - Started process (PID=99886) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:26:26.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:26:26.478+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:26:26.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:26:26.510+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:26:26.551+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:26:26.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:26:26.573+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:26:26.572+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:26:26.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.149 seconds
+[2024-12-23T09:26:57.334+0000] {processor.py:186} INFO - Started process (PID=99898) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:26:57.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:26:57.338+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:26:57.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:26:57.366+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:26:57.401+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:26:57.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:26:57.423+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:26:57.422+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:26:57.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.130 seconds
+[2024-12-23T09:27:28.099+0000] {processor.py:186} INFO - Started process (PID=99910) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:27:28.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:27:28.103+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:27:28.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:27:28.133+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:27:28.167+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:27:28.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:27:28.190+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:27:28.190+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:27:28.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T09:27:58.872+0000] {processor.py:186} INFO - Started process (PID=99922) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:27:58.874+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:27:58.875+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:27:58.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:27:58.898+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:27:58.928+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:27:58.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:27:58.950+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:27:58.950+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:27:58.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.118 seconds
+[2024-12-23T09:28:29.799+0000] {processor.py:186} INFO - Started process (PID=99934) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:28:29.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:28:29.804+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:28:29.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:28:29.845+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:28:29.881+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:28:29.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:28:29.907+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:28:29.906+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:28:29.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.163 seconds
+[2024-12-23T09:29:00.656+0000] {processor.py:186} INFO - Started process (PID=99946) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:29:00.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:29:00.658+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:29:00.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:29:00.680+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:29:00.712+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:29:00.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:29:00.737+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:29:00.737+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:29:00.774+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.124 seconds
+[2024-12-23T09:29:31.711+0000] {processor.py:186} INFO - Started process (PID=99958) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:29:31.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:29:31.715+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:29:31.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:29:31.742+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:29:31.778+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:29:31.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:29:31.798+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:29:31.798+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:29:31.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T09:30:02.670+0000] {processor.py:186} INFO - Started process (PID=99970) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:30:02.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:30:02.674+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:30:02.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:30:02.707+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:30:02.744+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:30:02.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:30:02.767+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:30:02.767+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:30:02.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.141 seconds
+[2024-12-23T09:30:32.914+0000] {processor.py:186} INFO - Started process (PID=99982) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:30:32.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:30:32.918+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:30:32.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:30:32.949+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:30:32.987+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:30:32.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:30:33.012+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:30:33.012+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:30:33.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.141 seconds
+[2024-12-23T09:31:03.809+0000] {processor.py:186} INFO - Started process (PID=99994) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:31:03.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:31:03.814+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:31:03.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:31:03.853+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:31:03.888+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:31:03.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:31:03.917+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:31:03.916+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:31:03.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.151 seconds
+[2024-12-23T09:31:34.865+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:31:34.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:31:34.869+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:31:34.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:31:34.914+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:31:34.956+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:31:34.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:31:34.989+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:31:34.988+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:31:35.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.185 seconds
+[2024-12-23T09:32:05.709+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:32:05.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:32:05.712+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:32:05.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:32:05.735+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:32:05.773+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:32:05.773+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:32:05.794+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:32:05.794+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:32:05.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.126 seconds
+[2024-12-23T09:32:36.446+0000] {processor.py:186} INFO - Started process (PID=331) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:32:36.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:32:36.449+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:32:36.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:32:36.474+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:32:36.507+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:32:36.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:32:36.524+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:32:36.523+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:32:36.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.117 seconds
+[2024-12-23T09:33:07.221+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:33:07.223+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:33:07.225+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:33:07.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:33:07.249+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:33:07.280+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:33:07.280+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:33:07.297+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:33:07.296+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:33:07.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.108 seconds
+[2024-12-23T09:33:37.970+0000] {processor.py:186} INFO - Started process (PID=355) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:33:37.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:33:37.975+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:33:37.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:33:38.004+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:33:38.039+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:33:38.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:33:38.060+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:33:38.060+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:33:38.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.126 seconds
+[2024-12-23T09:34:08.842+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:34:08.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:34:08.846+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:34:08.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:34:08.872+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:34:08.907+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:34:08.907+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:34:08.926+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:34:08.926+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:34:08.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.124 seconds
+[2024-12-23T09:34:39.741+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:34:39.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:34:39.745+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:34:39.744+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:34:39.777+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:34:39.811+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:34:39.811+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:34:39.840+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:34:39.839+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:34:39.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.150 seconds
+[2024-12-23T09:35:10.552+0000] {processor.py:186} INFO - Started process (PID=391) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:35:10.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:35:10.556+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:35:10.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:35:10.590+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:35:10.625+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:35:10.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:35:10.650+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:35:10.650+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:35:10.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.141 seconds
+[2024-12-23T09:35:41.496+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:35:41.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:35:41.500+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:35:41.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:35:41.525+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:35:41.554+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:35:41.554+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:35:41.572+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:35:41.571+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:35:41.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.117 seconds
+[2024-12-23T09:36:12.269+0000] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:36:12.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:36:12.272+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:36:12.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:36:12.303+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:36:12.340+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:36:12.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:36:12.363+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:36:12.362+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:36:12.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T09:36:43.097+0000] {processor.py:186} INFO - Started process (PID=427) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:36:43.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:36:43.102+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:36:43.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:36:43.130+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:36:43.162+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:36:43.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:36:43.180+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:36:43.180+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:36:43.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.118 seconds
+[2024-12-23T09:37:13.858+0000] {processor.py:186} INFO - Started process (PID=439) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:37:13.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:37:13.861+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:37:13.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:37:13.888+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:37:13.920+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:37:13.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:37:13.937+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:37:13.937+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:37:13.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.116 seconds
+[2024-12-23T09:37:44.588+0000] {processor.py:186} INFO - Started process (PID=451) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:37:44.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:37:44.591+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:37:44.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:37:44.617+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:37:44.649+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:37:44.649+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:37:44.666+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:37:44.666+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:37:44.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.118 seconds
+[2024-12-23T09:38:15.553+0000] {processor.py:186} INFO - Started process (PID=463) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:38:15.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:38:15.556+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:38:15.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:38:15.583+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:38:15.616+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:38:15.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:38:15.634+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:38:15.634+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:38:15.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.118 seconds
+[2024-12-23T09:38:46.286+0000] {processor.py:186} INFO - Started process (PID=475) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:38:46.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:38:46.290+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:38:46.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:38:46.318+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:38:46.351+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:38:46.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:38:46.372+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:38:46.372+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:38:46.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.120 seconds
+[2024-12-23T09:39:17.129+0000] {processor.py:186} INFO - Started process (PID=487) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:39:17.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:39:17.133+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:39:17.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:39:17.168+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:39:17.203+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:39:17.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:39:17.225+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:39:17.225+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:39:17.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.137 seconds
+[2024-12-23T09:39:47.992+0000] {processor.py:186} INFO - Started process (PID=499) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:39:47.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:39:47.995+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:39:47.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:39:48.018+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:39:48.051+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:39:48.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:39:48.071+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:39:48.070+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:39:48.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.118 seconds
+[2024-12-23T09:40:18.745+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:40:18.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:40:18.748+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:40:18.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:40:18.770+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:40:18.803+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:40:18.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:40:18.821+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:40:18.820+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:40:18.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.116 seconds
+[2024-12-23T09:40:49.634+0000] {processor.py:186} INFO - Started process (PID=524) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:40:49.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:40:49.638+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:40:49.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:40:49.666+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:40:49.700+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:40:49.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:40:49.723+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:40:49.723+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:40:49.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.137 seconds
+[2024-12-23T09:41:20.509+0000] {processor.py:186} INFO - Started process (PID=536) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:41:20.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:41:20.511+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:41:20.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:41:20.535+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:41:20.567+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:41:20.567+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:41:20.587+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:41:20.587+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:41:20.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.118 seconds
+[2024-12-23T09:41:51.312+0000] {processor.py:186} INFO - Started process (PID=548) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:41:51.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:41:51.315+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:41:51.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:41:51.348+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:41:51.382+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:41:51.381+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:41:51.402+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:41:51.401+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:41:51.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.135 seconds
+[2024-12-23T09:42:22.068+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:42:22.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:42:22.071+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:42:22.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:42:22.096+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:42:22.133+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:42:22.133+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:42:22.154+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:42:22.154+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:42:22.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.127 seconds
+[2024-12-23T09:42:52.850+0000] {processor.py:186} INFO - Started process (PID=572) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:42:52.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:42:52.853+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:42:52.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:42:52.878+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:42:52.912+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:42:52.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:42:52.932+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:42:52.931+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:42:52.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.126 seconds
+[2024-12-23T09:43:23.622+0000] {processor.py:186} INFO - Started process (PID=590) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:43:23.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:43:23.624+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:43:23.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:43:23.648+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:43:23.678+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:43:23.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:43:23.696+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:43:23.695+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:43:23.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.114 seconds
+[2024-12-23T09:43:54.546+0000] {processor.py:186} INFO - Started process (PID=602) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:43:54.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:43:54.549+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:43:54.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:43:54.574+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:43:54.604+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:43:54.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:43:54.621+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:43:54.621+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:43:54.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.115 seconds
+[2024-12-23T09:44:25.301+0000] {processor.py:186} INFO - Started process (PID=614) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:44:25.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:44:25.305+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:44:25.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:44:25.328+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:44:25.356+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:44:25.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:44:25.374+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:44:25.374+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:44:25.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.113 seconds
+[2024-12-23T09:44:56.165+0000] {processor.py:186} INFO - Started process (PID=626) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:44:56.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:44:56.167+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:44:56.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:44:56.189+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:44:56.218+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:44:56.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:44:56.236+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:44:56.236+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:44:56.261+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.102 seconds
+[2024-12-23T09:45:27.238+0000] {processor.py:186} INFO - Started process (PID=638) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:45:27.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:45:27.241+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:45:27.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:45:27.271+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:45:27.306+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:45:27.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:45:27.326+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:45:27.326+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:45:27.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T09:45:58.047+0000] {processor.py:186} INFO - Started process (PID=650) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:45:58.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:45:58.052+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:45:58.051+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:45:58.086+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:45:58.118+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:45:58.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:45:58.136+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:45:58.135+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:45:58.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.328 seconds
+[2024-12-23T09:46:28.775+0000] {processor.py:186} INFO - Started process (PID=662) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:46:28.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:46:28.779+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:46:28.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:46:28.802+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:46:28.833+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:46:28.832+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:46:28.851+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:46:28.851+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:46:28.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.117 seconds
+[2024-12-23T09:46:59.574+0000] {processor.py:186} INFO - Started process (PID=674) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:46:59.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:46:59.578+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:46:59.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:46:59.606+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:46:59.637+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:46:59.637+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:46:59.656+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:46:59.656+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:46:59.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.122 seconds
+[2024-12-23T09:47:30.349+0000] {processor.py:186} INFO - Started process (PID=686) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:47:30.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:47:30.353+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:47:30.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:47:30.386+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:47:30.419+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:47:30.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:47:30.440+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:47:30.440+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:47:30.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.139 seconds
+[2024-12-23T09:48:01.233+0000] {processor.py:186} INFO - Started process (PID=698) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:48:01.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:48:01.236+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:48:01.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:48:01.262+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:48:01.292+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:48:01.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:48:01.311+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:48:01.311+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:48:01.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.111 seconds
+[2024-12-23T09:48:31.980+0000] {processor.py:186} INFO - Started process (PID=710) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:48:31.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:48:31.983+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:48:31.982+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:48:32.007+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:48:32.037+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:48:32.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:48:32.056+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:48:32.055+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:48:32.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.114 seconds
+[2024-12-23T09:49:02.759+0000] {processor.py:186} INFO - Started process (PID=722) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:49:02.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:49:02.763+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:49:02.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:49:02.797+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:49:02.830+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:49:02.829+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:49:02.849+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:49:02.848+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:49:02.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.122 seconds
+[2024-12-23T09:49:33.676+0000] {processor.py:186} INFO - Started process (PID=734) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:49:33.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:49:33.679+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:49:33.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:49:33.700+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:49:33.731+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:49:33.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:49:33.752+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:49:33.752+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:49:33.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.113 seconds
+[2024-12-23T09:50:04.392+0000] {processor.py:186} INFO - Started process (PID=746) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:50:04.394+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:50:04.395+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:50:04.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:50:04.418+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:50:04.447+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:50:04.447+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:50:04.463+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:50:04.463+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:50:04.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.104 seconds
+[2024-12-23T09:50:35.260+0000] {processor.py:186} INFO - Started process (PID=758) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:50:35.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:50:35.263+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:50:35.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:50:35.285+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:50:35.317+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:50:35.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:50:35.338+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:50:35.338+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:50:35.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.108 seconds
+[2024-12-23T09:51:05.985+0000] {processor.py:186} INFO - Started process (PID=770) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:51:05.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:51:05.989+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:51:05.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:51:06.011+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:51:06.046+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:51:06.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:51:06.063+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:51:06.063+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:51:06.095+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.116 seconds
+[2024-12-23T09:51:36.746+0000] {processor.py:186} INFO - Started process (PID=782) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:51:36.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:51:36.749+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:51:36.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:51:36.774+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:51:36.808+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:51:36.808+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:51:36.829+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:51:36.829+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:51:36.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.124 seconds
+[2024-12-23T09:52:07.645+0000] {processor.py:186} INFO - Started process (PID=794) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:52:07.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:52:07.648+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:52:07.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:52:07.673+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:52:07.707+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:52:07.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:52:07.727+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:52:07.727+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:52:07.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.126 seconds
+[2024-12-23T09:52:37.990+0000] {processor.py:186} INFO - Started process (PID=806) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:52:37.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:52:37.995+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:52:37.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:52:38.030+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:52:38.074+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:52:38.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:52:38.104+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:52:38.104+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:52:38.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.166 seconds
+[2024-12-23T09:53:08.789+0000] {processor.py:186} INFO - Started process (PID=818) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:53:08.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:53:08.793+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:53:08.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:53:08.821+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:53:08.849+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:53:08.849+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:53:08.867+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:53:08.867+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:53:08.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.121 seconds
+[2024-12-23T09:53:39.646+0000] {processor.py:186} INFO - Started process (PID=830) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:53:39.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:53:39.649+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:53:39.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:53:39.676+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:53:39.706+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:53:39.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:53:39.723+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:53:39.723+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:53:39.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.113 seconds
+[2024-12-23T09:54:10.536+0000] {processor.py:186} INFO - Started process (PID=842) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:54:10.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:54:10.541+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:54:10.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:54:10.576+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:54:10.613+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:54:10.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:54:10.635+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:54:10.634+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:54:10.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.139 seconds
+[2024-12-23T09:54:41.030+0000] {processor.py:186} INFO - Started process (PID=854) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:54:41.031+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:54:41.034+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:54:41.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:54:41.066+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:54:41.106+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:54:41.106+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:54:41.129+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:54:41.129+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:54:41.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.344 seconds
+[2024-12-23T09:55:12.177+0000] {processor.py:186} INFO - Started process (PID=867) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:55:12.178+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:55:12.180+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:55:12.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:55:12.211+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:55:12.250+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:55:12.250+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:55:12.273+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:55:12.273+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:55:12.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.143 seconds
+[2024-12-23T09:55:43.210+0000] {processor.py:186} INFO - Started process (PID=879) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:55:43.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:55:43.214+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:55:43.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:55:43.243+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:55:43.279+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:55:43.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:55:43.302+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:55:43.301+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:55:43.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.125 seconds
+[2024-12-23T09:56:14.097+0000] {processor.py:186} INFO - Started process (PID=892) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:56:14.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:56:14.101+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:56:14.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:56:14.129+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:56:14.163+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:56:14.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:56:14.181+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:56:14.181+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:56:14.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.122 seconds
+[2024-12-23T09:56:44.390+0000] {processor.py:186} INFO - Started process (PID=904) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:56:44.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:56:44.394+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:56:44.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:56:44.423+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:56:44.459+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:56:44.458+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:56:44.485+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:56:44.484+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:56:44.702+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.318 seconds
+[2024-12-23T09:57:15.355+0000] {processor.py:186} INFO - Started process (PID=916) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:57:15.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:57:15.360+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:57:15.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:57:15.399+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:57:15.452+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:57:15.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:57:15.699+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:57:15.698+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:57:15.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.394 seconds
+[2024-12-23T09:57:46.520+0000] {processor.py:186} INFO - Started process (PID=928) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:57:46.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:57:46.524+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:57:46.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:57:46.554+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:57:46.586+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:57:46.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:57:46.608+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:57:46.608+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:57:46.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.128 seconds
+[2024-12-23T09:58:17.383+0000] {processor.py:186} INFO - Started process (PID=940) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:58:17.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:58:17.386+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:58:17.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:58:17.413+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:58:17.446+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:58:17.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:58:17.465+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:58:17.464+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:58:17.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.121 seconds
+[2024-12-23T09:58:47.623+0000] {processor.py:186} INFO - Started process (PID=952) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:58:47.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:58:47.626+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:58:47.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:58:47.654+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:58:47.687+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:58:47.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:58:47.709+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:58:47.709+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:58:47.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.299 seconds
+[2024-12-23T09:59:18.021+0000] {processor.py:186} INFO - Started process (PID=964) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:59:18.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:59:18.024+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:59:18.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:59:18.050+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:59:18.079+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:59:18.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:59:18.267+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:59:18.267+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:59:18.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.278 seconds
+[2024-12-23T09:59:49.332+0000] {processor.py:186} INFO - Started process (PID=977) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:59:49.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T09:59:49.335+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:59:49.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:59:49.534+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T09:59:49.561+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:59:49.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T09:59:49.576+0000] {logging_mixin.py:190} INFO - [2024-12-23T09:59:49.576+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T09:59:49.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.283 seconds
+[2024-12-23T10:00:19.866+0000] {processor.py:186} INFO - Started process (PID=989) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:00:19.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:00:19.871+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:00:19.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:00:19.892+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:00:19.921+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:00:19.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:00:19.938+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:00:19.938+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:00:19.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.104 seconds
+[2024-12-23T10:00:50.783+0000] {processor.py:186} INFO - Started process (PID=1001) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:00:50.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:00:50.786+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:00:50.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:00:50.812+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:00:50.841+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:00:50.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:00:50.859+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:00:50.859+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:00:50.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.111 seconds
+[2024-12-23T10:01:21.567+0000] {processor.py:186} INFO - Started process (PID=1013) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:01:21.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:01:21.571+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:01:21.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:01:21.594+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:01:21.621+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:01:21.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:01:21.637+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:01:21.637+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:01:21.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.107 seconds
+[2024-12-23T10:01:52.353+0000] {processor.py:186} INFO - Started process (PID=1026) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:01:52.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:01:52.356+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:01:52.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:01:52.380+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:01:52.410+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:01:52.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:01:52.430+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:01:52.430+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:01:52.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.110 seconds
+[2024-12-23T10:02:23.159+0000] {processor.py:186} INFO - Started process (PID=1038) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:02:23.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:02:23.163+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:02:23.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:02:23.194+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:02:23.225+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:02:23.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:02:23.246+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:02:23.245+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:02:23.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.135 seconds
+[2024-12-23T10:02:54.022+0000] {processor.py:186} INFO - Started process (PID=1050) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:02:54.024+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:02:54.026+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:02:54.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:02:54.056+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:02:54.105+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:02:54.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:02:54.125+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:02:54.125+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:02:54.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.141 seconds
+[2024-12-23T10:03:24.784+0000] {processor.py:186} INFO - Started process (PID=1062) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:03:24.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:03:24.788+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:03:24.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:03:24.817+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:03:24.849+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:03:24.849+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:03:24.868+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:03:24.868+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:03:24.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.122 seconds
+[2024-12-23T10:03:55.580+0000] {processor.py:186} INFO - Started process (PID=1075) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:03:55.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:03:55.584+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:03:55.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:03:55.614+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:03:55.647+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:03:55.646+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:03:55.675+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:03:55.674+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:03:55.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.140 seconds
+[2024-12-23T10:04:26.388+0000] {processor.py:186} INFO - Started process (PID=1094) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:04:26.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:04:26.391+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:04:26.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:04:26.417+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:04:26.450+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:04:26.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:04:26.469+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:04:26.469+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:04:26.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.119 seconds
+[2024-12-23T10:04:57.180+0000] {processor.py:186} INFO - Started process (PID=1106) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:04:57.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:04:57.183+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:04:57.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:04:57.208+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:04:57.238+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:04:57.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:04:57.261+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:04:57.261+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:04:57.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.125 seconds
+[2024-12-23T10:05:28.013+0000] {processor.py:186} INFO - Started process (PID=1119) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:05:28.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:05:28.017+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:05:28.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:05:28.046+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:05:28.077+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:05:28.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:05:28.097+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:05:28.097+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:05:28.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.124 seconds
+[2024-12-23T10:05:58.782+0000] {processor.py:186} INFO - Started process (PID=1131) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:05:58.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:05:58.785+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:05:58.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:05:58.813+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:05:58.842+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:05:58.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:05:58.863+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:05:58.862+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:05:58.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.120 seconds
+[2024-12-23T10:06:29.600+0000] {processor.py:186} INFO - Started process (PID=1143) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:06:29.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:06:29.602+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:06:29.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:06:29.628+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:06:29.660+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:06:29.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:06:29.680+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:06:29.680+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:06:29.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.121 seconds
+[2024-12-23T10:07:00.484+0000] {processor.py:186} INFO - Started process (PID=1155) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:07:00.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:07:00.487+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:07:00.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:07:00.515+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:07:00.546+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:07:00.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:07:00.568+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:07:00.568+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:07:00.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.118 seconds
+[2024-12-23T10:07:31.323+0000] {processor.py:186} INFO - Started process (PID=1167) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:07:31.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:07:31.326+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:07:31.326+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:07:31.356+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:07:31.390+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:07:31.390+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:07:31.414+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:07:31.414+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:07:31.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.138 seconds
+[2024-12-23T10:08:02.170+0000] {processor.py:186} INFO - Started process (PID=1179) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:08:02.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:08:02.174+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:08:02.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:08:02.203+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:08:02.237+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:08:02.236+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:08:02.256+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:08:02.256+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:08:02.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T10:08:32.994+0000] {processor.py:186} INFO - Started process (PID=1191) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:08:32.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:08:32.997+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:08:32.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:08:33.022+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:08:33.050+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:08:33.050+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:08:33.069+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:08:33.069+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:08:33.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.117 seconds
+[2024-12-23T10:09:03.887+0000] {processor.py:186} INFO - Started process (PID=1203) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:09:03.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:09:03.891+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:09:03.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:09:03.927+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:09:03.968+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:09:03.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:09:03.997+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:09:03.996+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:09:04.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.158 seconds
+[2024-12-23T10:09:34.731+0000] {processor.py:186} INFO - Started process (PID=1215) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:09:34.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:09:34.734+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:09:34.733+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:09:34.755+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:09:34.788+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:09:34.788+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:09:34.806+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:09:34.806+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:09:34.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.112 seconds
+[2024-12-23T10:10:05.578+0000] {processor.py:186} INFO - Started process (PID=1227) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:10:05.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:10:05.581+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:10:05.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:10:05.609+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:10:05.638+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:10:05.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:10:05.661+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:10:05.661+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:10:05.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.127 seconds
+[2024-12-23T10:10:36.511+0000] {processor.py:186} INFO - Started process (PID=1239) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:10:36.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:10:36.515+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:10:36.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:10:36.544+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:10:36.579+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:10:36.579+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:10:36.599+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:10:36.599+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:10:36.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.130 seconds
+[2024-12-23T10:11:07.376+0000] {processor.py:186} INFO - Started process (PID=1251) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:11:07.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:11:07.380+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:11:07.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:11:07.409+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:11:07.441+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:11:07.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:11:07.460+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:11:07.460+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:11:07.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.121 seconds
+[2024-12-23T10:11:38.354+0000] {processor.py:186} INFO - Started process (PID=1263) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:11:38.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:11:38.360+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:11:38.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:11:38.401+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:11:38.435+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:11:38.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:11:38.463+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:11:38.463+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:11:38.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.165 seconds
+[2024-12-23T10:12:09.413+0000] {processor.py:186} INFO - Started process (PID=1275) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:12:09.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:12:09.416+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:12:09.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:12:09.440+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:12:09.475+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:12:09.474+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:12:09.498+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:12:09.498+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:12:09.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.131 seconds
+[2024-12-23T10:12:40.332+0000] {processor.py:186} INFO - Started process (PID=1287) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:12:40.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:12:40.335+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:12:40.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:12:40.358+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:12:40.388+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:12:40.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:12:40.408+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:12:40.407+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:12:40.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.119 seconds
+[2024-12-23T10:13:11.096+0000] {processor.py:186} INFO - Started process (PID=1299) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:13:11.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:13:11.100+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:13:11.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:13:11.130+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:13:11.168+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:13:11.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:13:11.193+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:13:11.192+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:13:11.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.148 seconds
+[2024-12-23T10:13:41.971+0000] {processor.py:186} INFO - Started process (PID=1311) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:13:41.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:13:41.975+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:13:41.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:13:42.007+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:13:42.044+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:13:42.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:13:42.066+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:13:42.066+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:13:42.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.142 seconds
+[2024-12-23T10:14:12.863+0000] {processor.py:186} INFO - Started process (PID=1323) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:14:12.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:14:12.866+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:14:12.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:14:12.893+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:14:12.926+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:14:12.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:14:12.948+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:14:12.948+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:14:12.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.126 seconds
+[2024-12-23T10:14:43.658+0000] {processor.py:186} INFO - Started process (PID=1335) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:14:43.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:14:43.661+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:14:43.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:14:43.688+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:14:43.721+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:14:43.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:14:43.745+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:14:43.744+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:14:43.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T10:15:14.480+0000] {processor.py:186} INFO - Started process (PID=1347) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:15:14.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:15:14.482+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:15:14.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:15:14.504+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:15:14.532+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:15:14.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:15:14.550+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:15:14.550+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:15:14.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.109 seconds
+[2024-12-23T10:15:45.376+0000] {processor.py:186} INFO - Started process (PID=1359) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:15:45.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:15:45.379+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:15:45.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:15:45.401+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:15:45.431+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:15:45.430+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:15:45.453+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:15:45.453+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:15:45.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.119 seconds
+[2024-12-23T10:16:16.166+0000] {processor.py:186} INFO - Started process (PID=1372) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:16:16.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:16:16.169+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:16:16.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:16:16.199+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:16:16.229+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:16:16.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:16:16.251+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:16:16.251+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:16:16.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.119 seconds
+[2024-12-23T10:16:46.951+0000] {processor.py:186} INFO - Started process (PID=1384) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:16:46.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:16:46.954+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:16:46.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:16:46.981+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:16:47.008+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:16:47.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:16:47.029+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:16:47.028+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:16:47.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.110 seconds
+[2024-12-23T10:17:17.790+0000] {processor.py:186} INFO - Started process (PID=1396) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:17:17.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:17:17.793+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:17:17.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:17:17.817+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:17:17.846+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:17:17.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:17:17.867+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:17:17.866+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:17:17.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.116 seconds
+[2024-12-23T10:17:48.603+0000] {processor.py:186} INFO - Started process (PID=1408) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:17:48.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:17:48.606+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:17:48.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:17:48.629+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:17:48.656+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:17:48.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:17:48.672+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:17:48.672+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:17:48.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.102 seconds
+[2024-12-23T10:18:19.446+0000] {processor.py:186} INFO - Started process (PID=1420) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:18:19.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:18:19.450+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:18:19.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:18:19.482+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:18:19.522+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:18:19.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:18:19.545+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:18:19.545+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:18:19.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.149 seconds
+[2024-12-23T10:18:50.270+0000] {processor.py:186} INFO - Started process (PID=1432) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:18:50.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:18:50.273+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:18:50.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:18:50.303+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:18:50.341+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:18:50.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:18:50.365+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:18:50.365+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:18:50.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.137 seconds
+[2024-12-23T10:19:21.116+0000] {processor.py:186} INFO - Started process (PID=1444) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:19:21.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:19:21.119+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:19:21.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:19:21.147+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:19:21.184+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:19:21.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:19:21.208+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:19:21.207+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:19:21.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.136 seconds
+[2024-12-23T10:19:51.947+0000] {processor.py:186} INFO - Started process (PID=1456) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:19:51.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:19:51.951+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:19:51.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:19:51.982+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:19:52.034+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:19:52.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:19:52.063+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:19:52.063+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:19:52.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.174 seconds
+[2024-12-23T10:20:22.795+0000] {processor.py:186} INFO - Started process (PID=1468) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:20:22.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:20:22.798+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:20:22.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:20:22.831+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:20:22.873+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:20:22.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:20:22.896+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:20:22.895+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:20:22.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.150 seconds
+[2024-12-23T10:20:53.718+0000] {processor.py:186} INFO - Started process (PID=1480) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:20:53.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:20:53.724+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:20:53.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:20:53.750+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:20:53.783+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:20:53.782+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:20:53.806+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:20:53.806+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:20:53.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.137 seconds
+[2024-12-23T10:21:24.694+0000] {processor.py:186} INFO - Started process (PID=1492) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:21:24.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:21:24.699+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:21:24.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:21:24.729+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:21:24.760+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:21:24.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:21:24.781+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:21:24.780+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:21:24.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T10:21:54.883+0000] {processor.py:186} INFO - Started process (PID=1504) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:21:54.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:21:54.886+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:21:54.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:21:54.914+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:21:54.947+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:21:54.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:21:54.967+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:21:54.967+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:21:54.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.123 seconds
+[2024-12-23T10:22:25.124+0000] {processor.py:186} INFO - Started process (PID=1517) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:22:25.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:22:25.127+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:22:25.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:22:25.152+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:22:25.184+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:22:25.183+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:22:25.202+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:22:25.201+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:22:25.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.116 seconds
+[2024-12-23T10:22:55.940+0000] {processor.py:186} INFO - Started process (PID=1530) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:22:55.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:22:55.944+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:22:55.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:22:55.969+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:22:56.000+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:22:56.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:22:56.021+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:22:56.021+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:22:56.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.122 seconds
+[2024-12-23T10:23:26.694+0000] {processor.py:186} INFO - Started process (PID=1542) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:23:26.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:23:26.697+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:23:26.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:23:26.727+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:23:26.756+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:23:26.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:23:26.774+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:23:26.774+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:23:26.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.121 seconds
+[2024-12-23T10:23:57.497+0000] {processor.py:186} INFO - Started process (PID=1554) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:23:57.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:23:57.500+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:23:57.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:23:57.524+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:23:57.554+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:23:57.554+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:23:57.576+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:23:57.575+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:23:57.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.120 seconds
+[2024-12-23T10:24:28.418+0000] {processor.py:186} INFO - Started process (PID=1572) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:24:28.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:24:28.421+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:24:28.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:24:28.451+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:24:28.487+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:24:28.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:24:28.512+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:24:28.512+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:24:28.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.137 seconds
+[2024-12-23T10:24:59.316+0000] {processor.py:186} INFO - Started process (PID=1584) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:24:59.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:24:59.320+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:24:59.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:24:59.346+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:24:59.375+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:24:59.375+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:24:59.398+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:24:59.398+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:24:59.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.122 seconds
+[2024-12-23T10:25:30.304+0000] {processor.py:186} INFO - Started process (PID=1596) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:25:30.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:25:30.307+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:25:30.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:25:30.334+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:25:30.368+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:25:30.368+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:25:30.393+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:25:30.392+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:25:30.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.130 seconds
+[2024-12-23T10:26:01.372+0000] {processor.py:186} INFO - Started process (PID=1608) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:26:01.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:26:01.375+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:26:01.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:26:01.400+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:26:01.440+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:26:01.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:26:01.462+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:26:01.462+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:26:01.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.133 seconds
+[2024-12-23T10:26:32.554+0000] {processor.py:186} INFO - Started process (PID=1620) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:26:32.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:26:32.557+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:26:32.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:26:32.586+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:26:32.619+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:26:32.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:26:32.636+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:26:32.636+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:26:32.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.125 seconds
+[2024-12-23T10:27:03.353+0000] {processor.py:186} INFO - Started process (PID=1632) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:27:03.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:27:03.356+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:27:03.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:27:03.379+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:27:03.414+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:27:03.413+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:27:03.436+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:27:03.436+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:27:03.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.128 seconds
+[2024-12-23T10:27:34.212+0000] {processor.py:186} INFO - Started process (PID=1644) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:27:34.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:27:34.216+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:27:34.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:27:34.246+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:27:34.281+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:27:34.280+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:27:34.305+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:27:34.305+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:27:34.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.140 seconds
+[2024-12-23T10:28:05.120+0000] {processor.py:186} INFO - Started process (PID=1656) to work on /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:28:05.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/snowflake_connector_dag.py for tasks to queue
+[2024-12-23T10:28:05.124+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:28:05.123+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:28:05.151+0000] {processor.py:925} INFO - DAG(s) 'test' retrieved from /opt/airflow/dags/snowflake_connector_dag.py
+[2024-12-23T10:28:05.186+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:28:05.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T10:28:05.208+0000] {logging_mixin.py:190} INFO - [2024-12-23T10:28:05.208+0000] {dag.py:4180} INFO - Setting next_dagrun for test to None, run_after=None
+[2024-12-23T10:28:05.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/snowflake_connector_dag.py took 0.123 seconds
