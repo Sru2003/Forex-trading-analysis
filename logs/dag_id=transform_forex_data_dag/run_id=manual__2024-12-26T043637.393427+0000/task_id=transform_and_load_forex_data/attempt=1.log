@@ -1,0 +1,27 @@
+[2024-12-26T04:36:40.739+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-26T04:36:40.773+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transform_forex_data_dag.transform_and_load_forex_data manual__2024-12-26T04:36:37.393427+00:00 [queued]>
+[2024-12-26T04:36:40.790+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transform_forex_data_dag.transform_and_load_forex_data manual__2024-12-26T04:36:37.393427+00:00 [queued]>
+[2024-12-26T04:36:40.791+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-26T04:36:40.818+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): transform_and_load_forex_data> on 2024-12-26 04:36:37.393427+00:00
+[2024-12-26T04:36:40.830+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=363) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-26T04:36:40.833+0000] {standard_task_runner.py:72} INFO - Started process 365 to run task
+[2024-12-26T04:36:40.832+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'transform_forex_data_dag', 'transform_and_load_forex_data', 'manual__2024-12-26T04:36:37.393427+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/flatten.py', '--cfg-path', '/tmp/tmp2hsovgru']
+[2024-12-26T04:36:40.837+0000] {standard_task_runner.py:105} INFO - Job 59: Subtask transform_and_load_forex_data
+[2024-12-26T04:36:40.924+0000] {task_command.py:467} INFO - Running <TaskInstance: transform_forex_data_dag.transform_and_load_forex_data manual__2024-12-26T04:36:37.393427+00:00 [running]> on host 4fe538676cbc
+[2024-12-26T04:36:41.144+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='transform_forex_data_dag' AIRFLOW_CTX_TASK_ID='transform_and_load_forex_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-26T04:36:37.393427+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-26T04:36:37.393427+00:00'
+[2024-12-26T04:36:41.147+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-26T04:36:41.181+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-12-26T04:36:41.183+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-12-26T04:36:41.185+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-26T04:36:42.115+0000] {cursor.py:1166} INFO - Number of results in first chunk: 0
+[2024-12-26T04:36:58.379+0000] {logging_mixin.py:190} INFO - Error during transformation: 100040 (22007): 01b947f4-0000-d289-0008-6fb6000ee416: Date 'JPYINR=X' is not recognized
+[2024-12-26T04:36:58.383+0000] {connection.py:789} INFO - closed
+[2024-12-26T04:36:58.425+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-26T04:36:58.652+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-26T04:36:58.676+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-26T04:36:58.678+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=transform_forex_data_dag, task_id=transform_and_load_forex_data, run_id=manual__2024-12-26T04:36:37.393427+00:00, execution_date=20241226T043637, start_date=20241226T043640, end_date=20241226T043658
+[2024-12-26T04:36:58.792+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-26T04:36:58.839+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-26T04:36:58.848+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
