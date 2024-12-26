@@ -1,0 +1,112 @@
+[2024-12-26T08:21:40.825+0000] {processor.py:186} INFO - Started process (PID=7239) to work on /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:21:40.827+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fetch_forex.py for tasks to queue
+[2024-12-26T08:21:40.829+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:21:40.829+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:21:40.878+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:21:40.871+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/fetch_forex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_forex.py", line 86, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-12-26T08:21:40.881+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:21:40.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fetch_forex.py took 0.097 seconds
+[2024-12-26T08:22:11.026+0000] {processor.py:186} INFO - Started process (PID=7252) to work on /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:22:11.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fetch_forex.py for tasks to queue
+[2024-12-26T08:22:11.030+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:22:11.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:22:11.060+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:22:11.054+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/fetch_forex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_forex.py", line 86, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-12-26T08:22:11.063+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:22:11.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fetch_forex.py took 0.087 seconds
+[2024-12-26T08:22:41.211+0000] {processor.py:186} INFO - Started process (PID=7267) to work on /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:22:41.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fetch_forex.py for tasks to queue
+[2024-12-26T08:22:41.214+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:22:41.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:22:41.238+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:22:41.234+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/fetch_forex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_forex.py", line 86, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-12-26T08:22:41.240+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:22:41.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fetch_forex.py took 0.071 seconds
+[2024-12-26T08:23:11.468+0000] {processor.py:186} INFO - Started process (PID=7282) to work on /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:23:11.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fetch_forex.py for tasks to queue
+[2024-12-26T08:23:11.472+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:23:11.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:23:11.510+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:23:11.501+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/fetch_forex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_forex.py", line 86, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-12-26T08:23:11.512+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:23:11.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fetch_forex.py took 0.099 seconds
+[2024-12-26T08:23:42.024+0000] {processor.py:186} INFO - Started process (PID=7297) to work on /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:23:42.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fetch_forex.py for tasks to queue
+[2024-12-26T08:23:42.028+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:23:42.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:23:42.055+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:23:42.049+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/fetch_forex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_forex.py", line 86, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-12-26T08:23:42.057+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:23:42.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fetch_forex.py took 0.071 seconds
+[2024-12-26T08:24:12.215+0000] {processor.py:186} INFO - Started process (PID=7312) to work on /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:24:12.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fetch_forex.py for tasks to queue
+[2024-12-26T08:24:12.219+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:24:12.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:24:12.251+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:24:12.244+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/fetch_forex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_forex.py", line 86, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-12-26T08:24:12.253+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:24:12.289+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fetch_forex.py took 0.082 seconds
+[2024-12-26T08:24:42.779+0000] {processor.py:186} INFO - Started process (PID=7327) to work on /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:24:42.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fetch_forex.py for tasks to queue
+[2024-12-26T08:24:42.785+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:24:42.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:24:42.817+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:24:42.811+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/fetch_forex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_forex.py", line 86, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-12-26T08:24:42.819+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:24:42.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fetch_forex.py took 0.112 seconds
+[2024-12-26T08:25:13.040+0000] {processor.py:186} INFO - Started process (PID=7343) to work on /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:25:13.041+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fetch_forex.py for tasks to queue
+[2024-12-26T08:25:13.044+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:25:13.043+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:25:13.099+0000] {logging_mixin.py:190} INFO - [2024-12-26T08:25:13.091+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/fetch_forex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_forex.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2024-12-26T08:25:13.101+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_forex.py
+[2024-12-26T08:25:13.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fetch_forex.py took 0.114 seconds
