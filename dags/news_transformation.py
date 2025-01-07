@@ -10,7 +10,7 @@ def fetch_and_insert_news_for_countries(batch_size=500000, insert_batch_size=100
     snowflake_conn_id = 'snowflake_con'
     snowflake_conn = BaseHook.get_connection(snowflake_conn_id)
     # Snowflake connection parameters
-    account = "pdfhwro-uc15394"
+    account = "imdusds-kh92194"
     user = snowflake_conn.login
     password = snowflake_conn.password
     warehouse = snowflake_conn.extra_dejson.get('warehouse', 'COMPUTE_WH')
@@ -54,7 +54,7 @@ def fetch_and_insert_news_for_countries(batch_size=500000, insert_batch_size=100
     LIMIT %s OFFSET %s;
     """
     insert_query = """
-    INSERT INTO PROJECT.PROJECT_SCHEMA.TRANFORMRED_NEWS_DATA (TITLE, SOURCECOUNTRY, DATE, DOMAIN)
+    INSERT INTO PROJECT.PROJECT_SCHEMA.TRANSFORMED_NEWS_DATA2 (TITLE, SOURCECOUNTRY, DATE, DOMAIN)
     VALUES (%s, %s, %s, %s)
     """
     tracking_query = """
@@ -110,7 +110,7 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 with DAG(
-    'transform',
+    'transform_news',
     default_args=default_args,
     description='Fetch news from GDELT for multiple countries and insert into Snowflake with last execution tracking',
     schedule_interval='@daily',

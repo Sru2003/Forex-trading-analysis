@@ -6,7 +6,7 @@ import pandas as pd
 import json
 # Snowflake connection details
 SNOWFLAKE_ACCOUNT = "pdfhwro-uc15394"
-SNOWFLAKE_USER = "OM51"
+SNOWFLAKE_USER = "SRUSH"
 SNOWFLAKE_PASSWORD = "Snowflake@123"
 SNOWFLAKE_DATABASE = "PROJECT"
 SNOWFLAKE_SCHEMA = "PROJECT_SCHEMA"

@@ -1,0 +1,25 @@
+[2025-01-02T06:33:46.991+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-02T06:33:47.064+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test.fetch_and_insert_news_all_countries scheduled__2024-12-31T00:00:00+00:00 [queued]>
+[2025-01-02T06:33:47.142+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test.fetch_and_insert_news_all_countries scheduled__2024-12-31T00:00:00+00:00 [queued]>
+[2025-01-02T06:33:47.148+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2025-01-02T06:33:47.231+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_insert_news_all_countries> on 2024-12-31 00:00:00+00:00
+[2025-01-02T06:33:47.273+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=67) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-02T06:33:47.299+0000] {standard_task_runner.py:72} INFO - Started process 92 to run task
+[2025-01-02T06:33:47.297+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'test', 'fetch_and_insert_news_all_countries', 'scheduled__2024-12-31T00:00:00+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/fetch_news.py', '--cfg-path', '/tmp/tmpbqxscr1w']
+[2025-01-02T06:33:47.316+0000] {standard_task_runner.py:105} INFO - Job 72: Subtask fetch_and_insert_news_all_countries
+[2025-01-02T06:33:47.590+0000] {task_command.py:467} INFO - Running <TaskInstance: test.fetch_and_insert_news_all_countries scheduled__2024-12-31T00:00:00+00:00 [running]> on host 4fe538676cbc
+[2025-01-02T06:33:48.266+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test' AIRFLOW_CTX_TASK_ID='fetch_and_insert_news_all_countries' AIRFLOW_CTX_EXECUTION_DATE='2024-12-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-31T00:00:00+00:00'
+[2025-01-02T06:33:48.273+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-02T06:33:48.379+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-01-02T06:33:48.410+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-01-02T06:33:48.429+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2025-01-02T06:33:48.446+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-01-02T06:33:53.582+0000] {logging_mixin.py:190} INFO - Error inserting data into Snowflake: 250001 (08001): None: Failed to connect to DB: pdfhwro-uc15394.snowflakecomputing.com:443. Incorrect username or password was specified.
+[2025-01-02T06:33:53.584+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-02T06:33:53.642+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-02T06:33:53.647+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=test, task_id=fetch_and_insert_news_all_countries, run_id=scheduled__2024-12-31T00:00:00+00:00, execution_date=20241231T000000, start_date=20250102T063347, end_date=20250102T063353
+[2025-01-02T06:33:54.192+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-02T06:33:54.272+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-02T06:33:54.290+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

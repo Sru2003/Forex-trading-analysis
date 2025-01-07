@@ -1,0 +1,56 @@
+[2025-01-02T08:23:10.517+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-02T08:23:10.559+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_and_transform_news_data.process_news_all_countries manual__2025-01-02T08:23:07.904750+00:00 [queued]>
+[2025-01-02T08:23:10.582+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_and_transform_news_data.process_news_all_countries manual__2025-01-02T08:23:07.904750+00:00 [queued]>
+[2025-01-02T08:23:10.584+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-02T08:23:10.624+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_news_all_countries> on 2025-01-02 08:23:07.904750+00:00
+[2025-01-02T08:23:10.635+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1616) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-02T08:23:10.639+0000] {standard_task_runner.py:72} INFO - Started process 1618 to run task
+[2025-01-02T08:23:10.638+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fetch_and_transform_news_data', 'process_news_all_countries', 'manual__2025-01-02T08:23:07.904750+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/fetch_and_transform_news.py', '--cfg-path', '/tmp/tmp6h_1pcim']
+[2025-01-02T08:23:10.643+0000] {standard_task_runner.py:105} INFO - Job 94: Subtask process_news_all_countries
+[2025-01-02T08:23:10.722+0000] {task_command.py:467} INFO - Running <TaskInstance: fetch_and_transform_news_data.process_news_all_countries manual__2025-01-02T08:23:07.904750+00:00 [running]> on host 4fe538676cbc
+[2025-01-02T08:23:10.883+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_and_transform_news_data' AIRFLOW_CTX_TASK_ID='process_news_all_countries' AIRFLOW_CTX_EXECUTION_DATE='2025-01-02T08:23:07.904750+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-02T08:23:07.904750+00:00'
+[2025-01-02T08:23:10.886+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-02T08:23:10.929+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-01-02T08:23:10.933+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-01-02T08:23:10.936+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2025-01-02T08:23:10.937+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-01-02T08:23:13.054+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2025-01-02T08:23:13.056+0000] {logging_mixin.py:190} INFO - 470000
+[2025-01-02T08:23:13.057+0000] {connection.py:789} INFO - closed
+[2025-01-02T08:23:13.365+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2025-01-02T08:23:13.696+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-01-02T08:23:13.699+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2025-01-02T08:23:13.700+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-01-02T08:23:18.373+0000] {cursor.py:1166} INFO - Number of results in first chunk: 911
+[2025-01-02T08:23:25.632+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:26.845+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:29.133+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:31.566+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:32.770+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:33.888+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:36.254+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:37.497+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:38.758+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:39.959+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:40.633+0000] {logging_mixin.py:190} INFO - Logged 480000 rows in tracking table.
+[2025-01-02T08:23:43.680+0000] {cursor.py:1166} INFO - Number of results in first chunk: 892
+[2025-01-02T08:23:46.650+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:47.811+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:48.902+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:50.076+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:51.267+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:52.543+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:53.635+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:54.853+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:55.969+0000] {logging_mixin.py:190} INFO - Inserted 1000 rows.
+[2025-01-02T08:23:56.232+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2025-01-02T08:23:56.235+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-01-02T08:23:56.238+0000] {process_utils.py:132} INFO - Sending 15 to group 1618. PIDs of all processes in the group: [1618]
+[2025-01-02T08:23:56.240+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 1618
+[2025-01-02T08:23:56.242+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-01-02T08:23:56.244+0000] {connection.py:789} INFO - closed
+[2025-01-02T08:23:57.581+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2025-01-02T08:23:57.979+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-02T08:23:58.037+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=1618, status='terminated', exitcode=0, started='08:23:10') (1618) terminated with exit code 0

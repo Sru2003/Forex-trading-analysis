@@ -5,15 +5,15 @@ import json
 import yfinance as yf
 import snowflake.connector
 # Snowflake connection details
-SNOWFLAKE_ACCOUNT = "pdfhwro-uc15394"
+SNOWFLAKE_ACCOUNT = "qkjqutz-knb84971"
 SNOWFLAKE_USER = "OM51"
 SNOWFLAKE_PASSWORD = "Snowflake@123"
 SNOWFLAKE_DATABASE = "PROJECT"
 SNOWFLAKE_SCHEMA = "PROJECT_SCHEMA"
 SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
 SNOWFLAKE_TABLE = "FOREX_DATA"
-currencies = ["USD", "EUR", "GBP", "JPY", "INR", "CAD", "AUD", "CHF", "CNY", "NZD", "AED"]
-# currencies = ["USD", "EUR"]
+# currencies = ["USD", "EUR", "GBP", "JPY", "INR", "CAD", "AUD", "CHF", "CNY", "NZD", "AED"]
+currencies = ["INR"]
 currency_pairs = [f"{base}{target}=X" for base in currencies for target in currencies if base != target]
 # Snowflake connection function
 def get_snowflake_connection():

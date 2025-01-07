@@ -1,0 +1,59 @@
+[2025-01-02T06:41:29.130+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-02T06:41:29.159+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_and_transform_news_data.fetch_and_insert_news_all_countries manual__2025-01-02T06:41:25.806474+00:00 [queued]>
+[2025-01-02T06:41:29.177+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_and_transform_news_data.fetch_and_insert_news_all_countries manual__2025-01-02T06:41:25.806474+00:00 [queued]>
+[2025-01-02T06:41:29.178+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-02T06:41:29.206+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_insert_news_all_countries> on 2025-01-02 06:41:25.806474+00:00
+[2025-01-02T06:41:29.218+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=238) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-02T06:41:29.221+0000] {standard_task_runner.py:72} INFO - Started process 241 to run task
+[2025-01-02T06:41:29.221+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fetch_and_transform_news_data', 'fetch_and_insert_news_all_countries', 'manual__2025-01-02T06:41:25.806474+00:00', '--job-id', '87', '--raw', '--subdir', 'DAGS_FOLDER/fetch_and_transform_news.py', '--cfg-path', '/tmp/tmp_4h0jkeo']
+[2025-01-02T06:41:29.226+0000] {standard_task_runner.py:105} INFO - Job 87: Subtask fetch_and_insert_news_all_countries
+[2025-01-02T06:41:29.304+0000] {task_command.py:467} INFO - Running <TaskInstance: fetch_and_transform_news_data.fetch_and_insert_news_all_countries manual__2025-01-02T06:41:25.806474+00:00 [running]> on host 4fe538676cbc
+[2025-01-02T06:41:29.492+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_and_transform_news_data' AIRFLOW_CTX_TASK_ID='fetch_and_insert_news_all_countries' AIRFLOW_CTX_EXECUTION_DATE='2025-01-02T06:41:25.806474+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-02T06:41:25.806474+00:00'
+[2025-01-02T06:41:29.494+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-02T06:41:29.538+0000] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-01-02T06:41:29.541+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-01-02T06:41:29.543+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2025-01-02T06:41:29.544+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-01-02T06:41:31.599+0000] {cursor.py:1166} INFO - Number of results in first chunk: 11
+[2025-01-02T06:41:31.948+0000] {cursor.py:1166} INFO - Number of results in first chunk: 11
+[2025-01-02T06:41:31.950+0000] {logging_mixin.py:190} INFO - Fetched Keywords: ['currency', 'forex', 'finance', 'disease', 'war', 'election', 'pandemic', 'inflation', 'bank', 'trade', 'treaty']
+[2025-01-02T06:41:31.952+0000] {logging_mixin.py:190} INFO - Fetched Countries: ['AE', 'AS', 'CH', 'US', 'IN', 'GB', 'JP', 'CA', 'CN', 'NZ', 'AU']
+[2025-01-02T06:41:31.952+0000] {logging_mixin.py:190} INFO - Processing news for country: AE
+[2025-01-02T06:41:32.377+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2025-01-02T06:41:32.378+0000] {logging_mixin.py:190} INFO - 2023-02-11
+[2025-01-02T06:41:32.379+0000] {logging_mixin.py:190} INFO - 2023-02-11
+[2025-01-02T06:41:37.382+0000] {logging_mixin.py:190} INFO - Fetching news from 2023-02-11 to 2023-02-12 for AE...
+[2025-01-02T06:41:41.285+0000] {logging_mixin.py:190} INFO - Inserted 115 articles into Snowflake table 'NEWS_DATA' for AE.
+[2025-01-02T06:41:42.242+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2025-01-02T06:41:42.244+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2023-02-12 00:00:00
+[2025-01-02T06:41:47.242+0000] {logging_mixin.py:190} INFO - Fetching news from 2023-02-12 to 2023-02-13 for AE...
+[2025-01-02T06:41:50.310+0000] {logging_mixin.py:190} INFO - Inserted 174 articles into Snowflake table 'NEWS_DATA' for AE.
+[2025-01-02T06:41:51.300+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2025-01-02T06:41:51.301+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2023-02-13 00:00:00
+[2025-01-02T06:41:56.302+0000] {logging_mixin.py:190} INFO - Fetching news from 2023-02-13 to 2023-02-14 for AE...
+[2025-01-02T06:41:59.758+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for AE.
+[2025-01-02T06:42:00.825+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2025-01-02T06:42:00.826+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2023-02-14 00:00:00
+[2025-01-02T06:42:05.827+0000] {logging_mixin.py:190} INFO - Fetching news from 2023-02-14 to 2023-02-15 for AE...
+[2025-01-02T06:42:08.963+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for AE.
+[2025-01-02T06:42:09.918+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2025-01-02T06:42:09.919+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2023-02-15 00:00:00
+[2025-01-02T06:42:14.917+0000] {logging_mixin.py:190} INFO - Fetching news from 2023-02-15 to 2023-02-16 for AE...
+[2025-01-02T06:42:18.567+0000] {logging_mixin.py:190} INFO - Inserted 235 articles into Snowflake table 'NEWS_DATA' for AE.
+[2025-01-02T06:42:19.596+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2025-01-02T06:42:19.597+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2023-02-16 00:00:00
+[2025-01-02T06:42:24.599+0000] {logging_mixin.py:190} INFO - Fetching news from 2023-02-16 to 2023-02-17 for AE...
+[2025-01-02T06:42:27.934+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for AE.
+[2025-01-02T06:42:28.890+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2025-01-02T06:42:28.892+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2023-02-17 00:00:00
+[2025-01-02T06:42:30.058+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2025-01-02T06:42:30.063+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-01-02T06:42:30.071+0000] {process_utils.py:132} INFO - Sending 15 to group 241. PIDs of all processes in the group: [241]
+[2025-01-02T06:42:30.075+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 241
+[2025-01-02T06:42:30.077+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-01-02T06:42:30.080+0000] {connection.py:789} INFO - closed
+[2025-01-02T06:42:30.400+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2025-01-02T06:42:30.770+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-02T06:42:30.819+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=241, status='terminated', exitcode=0, started='06:41:28') (241) terminated with exit code 0

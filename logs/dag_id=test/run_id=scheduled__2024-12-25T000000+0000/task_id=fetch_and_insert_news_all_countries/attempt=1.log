@@ -16,3 +16,114 @@
 [2024-12-26T08:25:20.902+0000] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.4, Python Version: 3.12.8, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
 [2024-12-26T08:25:20.905+0000] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
 [2024-12-26T08:25:20.906+0000] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-26T08:25:22.067+0000] {cursor.py:1166} INFO - Number of results in first chunk: 11
+[2024-12-26T08:25:23.548+0000] {cursor.py:1166} INFO - Number of results in first chunk: 11
+[2024-12-26T08:25:23.550+0000] {logging_mixin.py:190} INFO - Fetched Keywords: ['currency', 'forex', 'finance', 'disease', 'war', 'election', 'pandemic', 'inflation', 'bank', 'trade', 'treaty']
+[2024-12-26T08:25:23.551+0000] {logging_mixin.py:190} INFO - Fetched Countries: ['JA', 'NZ', 'SZ', 'RS', 'AE', 'CA', 'AU', 'US', 'IN', 'UK', 'CH']
+[2024-12-26T08:25:23.552+0000] {logging_mixin.py:190} INFO - Processing news for country: JA
+[2024-12-26T08:25:24.975+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:25:24.977+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:25:29.978+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for JA...
+[2024-12-26T08:25:33.169+0000] {logging_mixin.py:190} INFO - Inserted 231 articles into Snowflake table 'NEWS_DATA' for JA.
+[2024-12-26T08:25:33.572+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:25:33.573+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:25:33.574+0000] {logging_mixin.py:190} INFO - Processing news for country: NZ
+[2024-12-26T08:25:33.690+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:25:33.692+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:25:38.693+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for NZ...
+[2024-12-26T08:25:40.711+0000] {logging_mixin.py:190} INFO - Inserted 35 articles into Snowflake table 'NEWS_DATA' for NZ.
+[2024-12-26T08:25:41.041+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:25:41.043+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:25:41.045+0000] {logging_mixin.py:190} INFO - Processing news for country: SZ
+[2024-12-26T08:25:41.152+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:25:41.154+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:25:46.155+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for SZ...
+[2024-12-26T08:25:48.678+0000] {logging_mixin.py:190} INFO - Inserted 103 articles into Snowflake table 'NEWS_DATA' for SZ.
+[2024-12-26T08:25:49.062+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:25:49.063+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:25:49.064+0000] {logging_mixin.py:190} INFO - Processing news for country: RS
+[2024-12-26T08:25:49.187+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:25:49.188+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:25:54.190+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for RS...
+[2024-12-26T08:25:56.849+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for RS.
+[2024-12-26T08:25:57.216+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:25:57.217+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:25:57.217+0000] {logging_mixin.py:190} INFO - Processing news for country: AE
+[2024-12-26T08:25:57.316+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:25:57.318+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:26:02.319+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for AE...
+[2024-12-26T08:26:04.454+0000] {logging_mixin.py:190} INFO - Inserted 46 articles into Snowflake table 'NEWS_DATA' for AE.
+[2024-12-26T08:26:04.707+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:04.708+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:26:04.709+0000] {logging_mixin.py:190} INFO - Processing news for country: CA
+[2024-12-26T08:26:04.809+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:04.810+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:26:09.812+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for CA...
+[2024-12-26T08:26:12.501+0000] {logging_mixin.py:190} INFO - Inserted 243 articles into Snowflake table 'NEWS_DATA' for CA.
+[2024-12-26T08:26:12.889+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:12.890+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:26:12.891+0000] {logging_mixin.py:190} INFO - Processing news for country: AU
+[2024-12-26T08:26:12.990+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:12.992+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:26:17.994+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for AU...
+[2024-12-26T08:26:20.029+0000] {logging_mixin.py:190} INFO - Inserted 62 articles into Snowflake table 'NEWS_DATA' for AU.
+[2024-12-26T08:26:20.335+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:20.336+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:26:20.337+0000] {logging_mixin.py:190} INFO - Processing news for country: US
+[2024-12-26T08:26:20.440+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:20.442+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:26:25.443+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for US...
+[2024-12-26T08:26:28.187+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for US.
+[2024-12-26T08:26:28.526+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:28.528+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:26:28.529+0000] {logging_mixin.py:190} INFO - Processing news for country: IN
+[2024-12-26T08:26:28.635+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:28.636+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:26:33.638+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for IN...
+[2024-12-26T08:26:36.257+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for IN.
+[2024-12-26T08:26:36.579+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:36.580+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:26:36.581+0000] {logging_mixin.py:190} INFO - Processing news for country: UK
+[2024-12-26T08:26:36.692+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:36.694+0000] {logging_mixin.py:190} INFO - 2024-12-25
+[2024-12-26T08:26:41.695+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for UK...
+[2024-12-26T08:26:44.367+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for UK.
+[2024-12-26T08:26:44.735+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:44.736+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:26:44.737+0000] {logging_mixin.py:190} INFO - Processing news for country: CH
+[2024-12-26T08:26:44.859+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:44.860+0000] {logging_mixin.py:190} INFO - 2024-12-19
+[2024-12-26T08:26:49.862+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-19 to 2024-12-20 for CH...
+[2024-12-26T08:26:52.323+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for CH.
+[2024-12-26T08:26:52.744+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:26:52.746+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-20 00:00:00
+[2024-12-26T08:26:57.746+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-20 to 2024-12-21 for CH...
+[2024-12-26T08:27:00.310+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for CH.
+[2024-12-26T08:27:00.628+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:27:00.629+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-21 00:00:00
+[2024-12-26T08:27:05.630+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-21 to 2024-12-22 for CH...
+[2024-12-26T08:27:08.118+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for CH.
+[2024-12-26T08:27:08.966+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:27:08.967+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-22 00:00:00
+[2024-12-26T08:27:13.968+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-22 to 2024-12-23 for CH...
+[2024-12-26T08:27:16.420+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for CH.
+[2024-12-26T08:27:17.205+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:27:17.206+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-23 00:00:00
+[2024-12-26T08:27:22.207+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-23 to 2024-12-24 for CH...
+[2024-12-26T08:27:24.271+0000] {logging_mixin.py:190} INFO - Non-critical error: 'ValueError' object has no attribute 'pos'. Skipping to next date.
+[2024-12-26T08:27:24.273+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-24 00:00:00
+[2024-12-26T08:27:29.271+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-24 to 2024-12-25 for CH...
+[2024-12-26T08:27:31.090+0000] {logging_mixin.py:190} INFO - Non-critical error: 'ValueError' object has no attribute 'pos'. Skipping to next date.
+[2024-12-26T08:27:31.091+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-25 00:00:00
+[2024-12-26T08:27:36.093+0000] {logging_mixin.py:190} INFO - Fetching news from 2024-12-25 to 2024-12-26 for CH...
+[2024-12-26T08:27:38.474+0000] {logging_mixin.py:190} INFO - Inserted 250 articles into Snowflake table 'NEWS_DATA' for CH.
+[2024-12-26T08:27:38.839+0000] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-12-26T08:27:38.841+0000] {logging_mixin.py:190} INFO - Proceeding to next date: 2024-12-26 00:00:00
+[2024-12-26T08:27:38.842+0000] {connection.py:789} INFO - closed
+[2024-12-26T08:27:38.883+0000] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-12-26T08:27:38.923+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-26T08:27:38.945+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-26T08:27:38.947+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=test, task_id=fetch_and_insert_news_all_countries, run_id=scheduled__2024-12-25T00:00:00+00:00, execution_date=20241225T000000, start_date=20241226T082520, end_date=20241226T082738
+[2024-12-26T08:27:39.031+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-26T08:27:39.057+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-26T08:27:39.062+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
