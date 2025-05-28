@@ -5,6 +5,11 @@ import json
 import yfinance as yf
 import pandas as pd
 import snowflake.connector
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from a .env file
+load_dotenv()
 # Snowflake connection details
 SNOWFLAKE_ACCOUNT = os.getenv("SNOWFLAKE_ACCOUNT")
 SNOWFLAKE_USER = os.getenv("SNOWFLAKE_USER")
