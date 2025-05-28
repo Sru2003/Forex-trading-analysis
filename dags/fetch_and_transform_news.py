@@ -7,6 +7,11 @@ import snowflake.connector
 from airflow.hooks.base_hook import BaseHook
 import time
 import uuid
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from a .env file
+load_dotenv()
 # Function to fetch news articles for a given date range and country
 def fetch_and_insert_news_for_countries(end_date, **kwargs):
     # Initialize GDELT client
