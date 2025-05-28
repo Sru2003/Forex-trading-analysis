@@ -15,13 +15,14 @@ def fetch_and_insert_news_for_countries(end_date, **kwargs):
     snowflake_conn_id = 'snowflake_con'
     snowflake_conn = BaseHook.get_connection(snowflake_conn_id)
     # Snowflake connection parameters
-    account = "qkjqutz-knb84971"
-    user = snowflake_conn.login
-    password = snowflake_conn.password
-    warehouse = snowflake_conn.extra_dejson.get('warehouse', 'COMPUTE_WH')
-    database = "PROJECT"
-    schema = "PROJECT_SCHEMA"
-    role = snowflake_conn.extra_dejson.get('role', 'ACCOUNTADMIN')
+    user = os.getenv("SNOWFLAKE_USER")
+    password = os.getenv("SNOWFLAKE_PASSWORD")
+    account = os.getenv("SNOWFLAKE_ACCOUNT")
+    warehouse = os.getenv("SNOWFLAKE_WAREHOUSE")
+    database = os.getenv("SNOWFLAKE_DATABASE")
+    schema = os.getenv("SNOWFLAKE_SCHEMA")
+    role = os.getenv("SNOWFLAKE_ROLE")
+
     insert_query = """
     INSERT INTO PROJECT.PROJECT_SCHEMA.NEWS_DATA
     (URL, URL_MOBILE, TITLE, SEENDATE, SOCIALIMAGE, DOMAIN, LANGUAGE, SOURCECOUNTRY)
