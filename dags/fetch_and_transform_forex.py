@@ -6,14 +6,15 @@ import yfinance as yf
 import pandas as pd
 import snowflake.connector
 # Snowflake connection details
-SNOWFLAKE_ACCOUNT = "qkjqutz-knb84971"
-SNOWFLAKE_USER = "OM51"
-SNOWFLAKE_PASSWORD = "Snowflake@123"
-SNOWFLAKE_DATABASE = "PROJECT"
-SNOWFLAKE_SCHEMA = "PROJECT_SCHEMA"
-SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
-SNOWFLAKE_TABLE_SOURCE = "FOREX_DATA"
-SNOWFLAKE_TABLE_TARGET = "TRANSFORMED_FOREX_DATA"
+SNOWFLAKE_ACCOUNT = os.getenv("SNOWFLAKE_ACCOUNT")
+SNOWFLAKE_USER = os.getenv("SNOWFLAKE_USER")
+SNOWFLAKE_PASSWORD = os.getenv("SNOWFLAKE_PASSWORD")
+SNOWFLAKE_DATABASE = os.getenv("SNOWFLAKE_DATABASE")
+SNOWFLAKE_SCHEMA = os.getenv("SNOWFLAKE_SCHEMA")
+SNOWFLAKE_WAREHOUSE = os.getenv("SNOWFLAKE_WAREHOUSE")
+SNOWFLAKE_TABLE_SOURCE = os.getenv("SNOWFLAKE_TABLE_SOURCE")
+SNOWFLAKE_TABLE_TARGET = os.getenv("SNOWFLAKE_TABLE_TARGET")
+
 currencies = ["USD", "EUR", "GBP", "JPY", "INR", "CAD", "AUD", "CHF", "CNY", "NZD", "AED", "RUB"]
 currency_pairs = [f"{base}{target}=X" for base in currencies for target in currencies if base != target]
 # Snowflake connection function
