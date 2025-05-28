@@ -30,7 +30,7 @@ This project presents a full-fledged **ETL pipeline** and **interactive dashboar
 
 ## 🧊 Data Architecture
 
-
+```
 [Yahoo Finance / GDELT APIs]
          ↓
    [Airflow DAGs]
@@ -39,7 +39,7 @@ This project presents a full-fledged **ETL pipeline** and **interactive dashboar
  Raw → Transformed → Modeled
          ↓
    [Power BI Dashboards]
-
+```
 ---
 
 ## 🔄 Project Overview
